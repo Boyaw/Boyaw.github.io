@@ -6,6 +6,10 @@ $ brew install imagemagick
 $ bundle exec jekyll serve
 ```
 
+- Some plugins are supported locally but not in Github page 
+  - `jekyll-twitter-plugin`
+  - `mermaid`
+
 
 
 
