@@ -13,7 +13,7 @@
     <meta name="author" content="Boya  Wang" />
     <meta name="description" content="Somehow I start writing. 
 " />
-    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
+    <meta name="keywords" content="Boya Wang, blog, dancer, security" />
 
 
     <!-- Bootstrap & MDB -->
@@ -30,8 +30,6 @@
 
     <!-- Styles -->
     
-    <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚛️</text></svg>">
-    
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="canonical" href="http://localhost:4000/">
     
@@ -46,7 +44,7 @@
   </head>
 
   <!-- Body -->
-  <body class="fixed-top-nav ">
+  <body class="fixed-top-nav sticky-bottom-footer">
 
     <!-- Header -->
     <header>
@@ -54,7 +52,7 @@
       <!-- Nav Bar -->
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
         <div class="container">
-          
+          <a class="navbar-brand title font-weight-lighter" href="http://localhost:4000/"><span class="font-weight-bold">Boya</span>   Wang</a>
           <!-- Navbar Toggle -->
           <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span>
@@ -67,8 +65,8 @@
             <ul class="navbar-nav ml-auto flex-nowrap">
 
               <!-- About -->
-              <li class="nav-item active">
-                <a class="nav-link" href="/">about<span class="sr-only">(current)</span></a>
+              <li class="nav-item ">
+                <a class="nav-link" href="/">about</a>
               </li>
               
               <!-- Blog -->
@@ -77,6 +75,9 @@
               </li>
 
               <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/more/">more</a>
+              </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/projects/">projects</a>
               </li>
@@ -90,9 +91,6 @@
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="/projects/">projects</a>
                 </div>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/teaching/">teaching</a>
               </li>
 
               <!-- Toogle theme mode -->
@@ -116,7 +114,7 @@
           <h1 class="post-title">
            <span class="font-weight-bold">Boya</span>  Wang
           </h1>
-          <p class="desc"><a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.</p>
+          <p class="desc">Master's student at <a href="https://ethz.ch/de.html" target="_blank" rel="noopener noreferrer">ETHZ</a>. Currently exchanging at <a href="https://spring.epfl.ch/team.html" target="_blank" rel="noopener noreferrer">EPFL SPRING Lab</a>.</p>
         </header>
 
         <article>
@@ -124,28 +122,33 @@
 <figure>
 
   <picture>
-    <source media="(max-width: 480px)" srcset="/assets/img/prof_pic-480.webp"></source>
-    <source media="(max-width: 800px)" srcset="/assets/img/prof_pic-800.webp"></source>
-    <source media="(max-width: 1400px)" srcset="/assets/img/prof_pic-1400.webp"></source>
+    <source media="(max-width: 480px)" srcset="/assets/img/about_boya-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/about_boya-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/about_boya-1400.webp"></source>
     <!-- Fallback to the original file -->
-    <img class="img-fluid z-dept-1 rounded" src="/assets/img/prof_pic.jpg" alt="prof_pic.jpg">
+    <img class="img-fluid z-dept-1 rounded" src="/assets/img/about_boya.jpeg" alt="about_boya.jpeg">
 
   </picture>
 
 </figure>
 
             <div class="address">
-              <p>555 your office number</p> <p>123 your address street</p> <p>Your City, State 12345</p>
+              <p>Also a popping dancer, fan of Argentina national football team, and proud queer (she/her).</p>
 
             </div>
           </div>
 
           <div class="clearfix">
-            <p>Write your biography here. Tell the world about yourself. Link to your favorite <a href="http://reddit.com" target="_blank" rel="noopener noreferrer">subreddit</a>. You can put a picture in, too. The code is already in, just name your picture <code class="language-plaintext highlighter-rouge">prof_pic.jpg</code> and put it in the <code class="language-plaintext highlighter-rouge">img/</code> folder.</p>
+            <p>My research interest is system security, with a recent focus on privacy. I am always amazed by the whole lifecycle of large-scale systems, their interactions with people, and the implication of their usage. In particular, I am exploring the following topics:</p>
+<ul>
+  <li>security-by-design</li>
+  <li>privacy enhancing technology</li>
+  <li>cybersecurity policy and strategy</li>
+</ul>
 
-<p>Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing <code class="language-plaintext highlighter-rouge">profile</code> property of the YAML header of your <code class="language-plaintext highlighter-rouge">_pages/about.md</code>. Edit <code class="language-plaintext highlighter-rouge">_bibliography/papers.bib</code> and Jekyll will render your <a href="/al-folio/publications/">publications page</a> automatically.</p>
+<p>I am a master’s student in Electrical Engineering and Information Technology at <a href="https://ee.ethz.ch/studies/master-s-programmes/main-master.html" target="_blank" rel="noopener noreferrer">ETH Zürich</a>. Since September 2021, I have exchanged at <a href="https://www.epfl.ch/en/" target="_blank" rel="noopener noreferrer">EPF Lausanne</a> and am doing my thesis at the <a href="https://spring.epfl.ch" target="_blank" rel="noopener noreferrer">Security and Privacy Engineering Laboratory</a>. I work on the <a href="https://www.c4dt.org/project/pribad-private-biometrics-for-aid-distribution/" target="_blank" rel="noopener noreferrer">Pribad project</a> with <a href="https://wouterlueks.nl/" target="_blank" rel="noopener noreferrer">Dr. Wouter Lueks</a> and <a href="http://carmelatroncoso.com/" target="_blank" rel="noopener noreferrer">Prof. Carmela Troncoso</a>. My thesis is to design a biometrics-based aid distribution system for the <a href="https://www.icrc.org" target="_blank" rel="noopener noreferrer">Internation Committee of the Red Cross</a> with better security, privacy, and accountability. Before coming to Switzerland, I got my Bachelor’s Degree in Communication Engineering at <a href="http://www.hit.edu.cn" target="_blank" rel="noopener noreferrer">Harbin Institute of Technology</a> in 2019.</p>
 
-<p>Link to your social media connections, too. This theme is set up to use <a href="http://fortawesome.github.io/Font-Awesome/" target="_blank" rel="noopener noreferrer">Font Awesome icons</a> and <a href="https://jpswalsh.github.io/academicons/" target="_blank" rel="noopener noreferrer">Academicons</a>, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.</p>
+<p>Besides my research, I am a popping dancer and an attacking midfielder. I love writing silly posts on random things. If you would like to know <a href="/more/">more</a> about me, please feel free to check my <a href="/blog/">blog</a>. I speak Chinese (Mandarin &amp; a proud native of Northeastern dialect 辽西东北话), German (B1), and French (A1).</p>
 
           </div>
 
@@ -155,22 +158,22 @@
             <div class="table-responsive">
               <table class="table table-sm table-borderless"> 
                 <tr>
-                  <th scope="row">Jan 15, 2016</th>
+                  <th scope="row">Apr 22, 2022</th>
                   <td>
-                    A simple inline announcement with Markdown emoji! <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png" height="20" width="20"> <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20">
+                    <a class="news-title" href="/news/cyber912/">We placed second in the Cyber 9/12 Strategy Challenge.</a> 
+                  </td>
+                </tr> 
+                <tr>
+                  <th scope="row">Mar 15, 2022</th>
+                  <td>
+                    I am thrilled to share that I will join the <a href="https://cispa.saarland/group/rossow/" target="_blank" rel="noopener noreferrer">System Security group</a> led by <a href="https://christian-rossow.de" target="_blank" rel="noopener noreferrer">Prof. Christian Rossow</a> as a Ph.D. student at CISPA this autumn.
  
                   </td>
                 </tr> 
                 <tr>
-                  <th scope="row">Nov 7, 2015</th>
+                  <th scope="row">Feb 7, 2022</th>
                   <td>
-                    <a class="news-title" href="/news/announcement_2/">A long announcement with details</a> 
-                  </td>
-                </tr> 
-                <tr>
-                  <th scope="row">Oct 22, 2015</th>
-                  <td>
-                    A simple inline announcement.
+                    Our paper “On the Security of the FLARM Collision Warning System” has been accepted to AsiaCCS 2022.
  
                   </td>
                 </tr> 
@@ -220,15 +223,16 @@
 
           <!-- Social -->
           <div class="social">
-            <div class="contact-icons">
-            <a href="mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D" title="email"><i class="fas fa-envelope"></i></a>
-            <a href="http://localhost:4000/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
             
-            </div>
-
             <div class="contact-note">
-              You can even add a little note about which of these is the best way to reach you.
+              Before clicking any of the icons below, would you also prefer to grab a drink and chat face to face? 
 
+            </div>
+            <div class="contact-icons">
+              <a href="https://github.com/Boyaw" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/boyazwolf" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/boyazwolf" title="Twitter" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter-square"></i></a>
+            
             </div>
             
           </div>
@@ -238,10 +242,9 @@
 
     </div>
 
-    <!-- Footer -->    
-    <footer class="fixed-bottom">
-      <div class="container mt-0">
-        © Copyright 2022 Boya  Wang. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a>.
+    <!-- Footer -->    <footer class="sticky-bottom mt-5">
+      <div class="container">
+        © Copyright 2022 Boya  Wang. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">modified al-folio</a> theme.
 
       </div>
     </footer>
