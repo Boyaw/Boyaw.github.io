@@ -1,5 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en, cn"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en, cn" /><updated>2022-05-08T21:50:29+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">blank</title><subtitle>Somehow I start writing. 
-</subtitle><entry><title type="html">The Good, the Bad and the Ugly</title><link href="http://localhost:4000/blog/2022/icrc/" rel="alternate" type="text/html" title="The Good, the Bad and the Ugly" /><published>2022-05-05T00:00:00+02:00</published><updated>2022-05-05T00:00:00+02:00</updated><id>http://localhost:4000/blog/2022/icrc</id><content type="html" xml:base="http://localhost:4000/blog/2022/icrc/"><![CDATA[<p><em>At the end of this story, money still rules the world. But I have met lovely people who were dancing in shackles. It is not all that bad, it is not.</em></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en, cn"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en, cn" /><updated>2022-05-14T13:41:20+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">blank</title><subtitle>Somehow I start writing. 
+</subtitle><entry><title type="html">如果国家卫星系统被入侵</title><link href="http://localhost:4000/blog/2022/cybercompetition/" rel="alternate" type="text/html" title="如果国家卫星系统被入侵" /><published>2022-05-11T00:00:00+02:00</published><updated>2022-05-11T00:00:00+02:00</updated><id>http://localhost:4000/blog/2022/cybercompetition</id><content type="html" xml:base="http://localhost:4000/blog/2022/cybercompetition/"><![CDATA[<p><strong>Disclaimer: All contents are under the Chatham House Rule<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>! All rights are RESERVED! All opinions are MINE!</strong></p>
+
+<p>前一阵子参加了<a href="https://www.gcsp.ch/events/cyber-912-strategy-challenge-2022">Cyber 9/12 Strategy Challenge 2022</a>，这个比赛一共就两天，结束之后睡了三天才活过来。虽然挺累的，但是真的挺好玩的，推荐对cyber policy&amp;strategy感兴趣的朋友参加。前两天帮忙写（贼正经的）参赛总结<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>，回顾了一下整个过程还有挺多有意思的小事儿。今天先写一下关于这个比赛大概的情况，我参赛的经历，最后写点儿有意思的事儿。You know, there are so many interesting stories to tell. Have fun reading ;)</p>
+
+<hr />
+
+<h4 id="a-cyber-incident-in-a-fictional-world"><strong>A Cyber Incident in a Fictional World</strong></h4>
+<p><em>We must let the right people do the right thing at the right time without knowing exactly what is “right”.</em></p>
+
+<p>Cyber9/12这个比赛我之前就知道。2020年末刚开始接触security research的时候，参加一个ETH Cyber Group组织的workshop的时候听人说起这个比赛，ETHZ每年都组队参加。当时只知道这是个cyber policy&amp;strategy比赛，具体怎么比也不知道，不过还是挺感兴趣的。但是2020年和2021年的比赛都因为各种各样的不可抗力奇奇怪怪就错过了，就这么着就腾着，一直到今年。本来都觉得肯定没戏了，因为没想到最后一个学期会来洛桑交换做thesis，ETHZ的赛前培训什么的肯定还是在苏黎世，EPFL又从来没听说过有派队参赛。不过幸亏不死心又问了一下，正好今年有三个EPFL的学生也想参加，三缺一！这么好的last-minute chance不安排上简直天理难容，of course, I am in. Let’s go ;)</p>
+
+<p>Cyber9/12有一个赛前初选，之后的正式比赛一共有三轮，<strong>简单点说这个比赛就是一个cyber incident response演习</strong>。比赛一开始它会给一个事件描述，哪个国家在哪个时候出现了一个cyber incident（今年是一个国家的卫星通信系统出现了故障，原因未知，影响了整个国家北部地区的communication、digital payment、mining industry）。为了保证事件尽量接近真实，这个文件也会描述这个国家在历史上跟周围国家的地缘政治关系（刚刚从另一个国家独立出来，并依然存在领土、主权纷争），整个国家的经济情况（发展状况良好，digital payment十分发达，mining industry非常活跃）。</p>
+
+<p>参赛队伍扮演的是cyber policy experts（responsible for cyber incident responses）的角色，每支队伍要根据每一轮的事件描述制定策略，然后在评委面前做一个10分钟presentation，紧接着一个10分钟Q&amp;A。To add more flavor into the game, 每一轮都会有incident escalation（A国家发动了经济制裁，B国家在边境部署了军队，C国家公开指责这次cyber incident的幕后推手是XXX），参赛队伍需要根据新的情况调整策略，而且每一轮的准备时间越来越短（two weeks for round 1, 12 hours for round 2, <strong>15 minutes for round 3</strong>）。</p>
+
+<p>评委们扮演的是真正的decision maker的角色（feel free to imagine some big names like president, minister, deputy head），也就是说它们会根据presentation对参赛队伍进行提问，要求参赛者解释为什么这个时候做这个事情，有多大把握，有什么风险。评委都是真正在cyber incident response方面干过（this year there are judges from NATO, <a href="https://www.ssi.gouv.fr/en/cybersecurity-in-france/the-national-cybersecurity-agency-of-france/">ANSSI</a>, Swiss Armed Forces, Scottish Government, National Cyber Security Center CH, <a href="https://en.wikipedia.org/wiki/Europol">Europol</a>, etc. you can check the full list <a href="https://www.gcsp.ch/global-insights/team-havels-velvet-underground-jagiellonian-university-krakow-wins-8th-european?utm_source=email%20after&amp;utm_medium=email&amp;utm_campaign=winners%20cyber%209/12%202022">here</a>），所以它们提出的问题基本就是真实情况下在汇报的时候会被问到的。这个比赛的组织方partner有：<a href="https://en.wikipedia.org/wiki/Atlantic_Council">Atlantic Council</a>，<a href="https://en.wikipedia.org/wiki/United_States_Department_of_State">United States Department of State</a>，<a href="https://en.wikipedia.org/wiki/Federal_Department_of_Foreign_Affairs">Swiss Federal Department of Foreign Affairs</a>，so you can have a feeling on who might be interested in such competitions ;)</p>
+
+<h4 id="the-game-is-on"><strong>The Game is ON</strong></h4>
+<p><em>大实话真的，老年人作息的话还是不要搞cyber incident response。</em></p>
+
+<p>这个比赛的workload还是挺大的，主观感觉备赛期差不多是4 ECTS credits，参赛那一个礼拜基本full-time。参加比赛以前我们四个参加了ETH Cyber Group组织的、为期两个月的培训。虽然我们都算是学cybersecurity的，但是都是做技术的security engineers。<strong>Cyber incident response is never only about technology.</strong> 所以我们四个在两个月里要速成international law，cybersecurity regulation，political science，economics… 因为要学的东西太多了，只能是一个人负责一部分，这次我主要负责欧盟（European Union）方面的东西：搞清各个部门的职责分工，权力关系，能力范围，反应时间；安全事务要找谁，经济制裁要找谁，外交沟通要找谁，军事协调要找谁，技术合作要找谁；什么情况下可以把事态控制在某个国家内部，什么情况下要通报EU，什么情况下要寻求NATO的协助。</p>
+
+<p>Cyber9/12这个比赛每年都在evolve。从初选就能看出来，今年ETHZ和EPFL一共出了四个队，结果初选就不知道为什么刷掉了两个，这个情况在往年是从没有出现过的（2021年ETHZ出了四个队全部通过初选）。初选之后的正赛一共三轮：第一轮32进16，第二轮16进4，最后决赛轮前四的队伍会再次排名。第一轮的赛题发下来的时候所有人都惊了，因为明显能看出来事件描述的精细程度远超往年。有意思的是，虽然它描述了一个半虚拟的世界（捏造了虚拟国家），但是明显能看出来各个方面都在影射真实情况。第一轮近30页的事件描述中夹带的私货有：俄乌战争，中美贸易战，非洲数字支付系统和采矿业发展，中非贸易合作，欧盟内部分歧等等。</p>
+
+<p>这比赛打的挺过瘾的，强度也很大。如果进入到final list，那就做好两天睡三个小时的准备。我们四个本来觉得have fun得了，因为我们的背景实在是太technical了，这种比赛没有优势，但是初选被选上了之后压力就一下上来了，觉得还是得好好比不能太浪，但是心里肯定还是没底。这个比赛绝对是看teamwork，因为最后一轮只有15分钟准备时间，根本没有机会互相沟通，只能是明确分工，快速确定方向，然后就是，相信队友不会搞砸。赛前我们演练过两次，根据各自的特点：一个人负责串联，一个人做immediate policy，一个人做long-term measure，我负责总结和Q&amp;A。之所以是我来做最后这一块，是因为practice run的时候，I somehow can answer all the questions from judges without actually answering any of them, and leave the impression that I have answered them very well. In short, I am good at <strong>bullshitting our way out</strong>. 真正比赛的时候超时会被扣分，所以最后总结要根据队友留的时间快速调整，保证结尾要能强调所提出的策略，并且结束在规定时间内。在之后的Q&amp;A环节，there can always be mean questions from the judges that are real specialists, 我们四个确定的方法是，如果3秒之内没有人回答这个问题，I will always take it and do my magic ;) 这种分工真的是要看每个人的性格，因为在三轮比赛的压力下，nobody can hide its personality, so we must choose the role we are comfortable with.</p>
+
+<p>个人感觉这个比赛运气成分是有的，赛前准备和临场发挥都很重要。我们三轮比赛算是低开高走。第一轮中规中矩，勉强晋级；第二轮发挥得挺好的，但是其他队也都做的非常非常好，出结果的时候是以第四名压线进的finalist；四个工程师能进决赛我们自己也是没想到，所以没什么压力，最后放手一搏反杀了两个队拿到第二。We are so proud of ourselves!</p>
+
+<h4 id="some-random-things"><strong>Some Random Things</strong></h4>
+<p><em>Do not ask me why or how I know these things, I just know ;)</em></p>
+
+<ul>
+    <li>如果各位想知道<b>情报部门的工作真正是什么样的</b>: Mission Impossible is a "<b>no</b>", 007 is a "<b>no no</b>". 有个法国电视剧叫<i>Le Bureau des légendes</i>, that will be the one you would like to watch.</li>
+    <li>虽然瑞士和欧盟之间的肥皂剧还在扯皮，但是ETHZ的Center for Security Studies（CSS）却是世界上研究欧盟安全策略最好的研究中心（可能没有）之一，它们的研究真的是直接对EU regulation产生影响。If you are interested in security policy research, CSS at ETHZ is a good place to go. </li>
+    <li>A cyber incident is not necessarily equal to a cyber crime. 一般来讲每个国家有自己的Computer Emergency Response Team (CERT)专门来处理cyber incident。Cybercop也确实是有的，但是它们只管cyber crime，不帮你修复系统漏洞。</li>
+    <li>确实存在所谓“黑客国家队”，it is actually called <a href="https://en.wikipedia.org/wiki/Advanced_persistent_threat">Advanced Persistent Threat</a> (APT). But things are complicated in this field. 有些人直接受政府雇佣，有些人平时单独行动政府只是“客户”，有些人既是政府雇员也自己接私活。出了个事儿以后很难讲这是政府行动还是个人行动，because they are the kind of people that are not necessarily under anyone's control. They do stuff because they want to. </li>
+    <li>Cyber incident is never only in the cyber space. 军事、政治、经济方方面面都会受影响，“social unrest”往往是最先出现、也最难搞的问题。Re-building the trust is a fine art. When people are panic, we do silly things, and the whole country will suck. </li>
+    <li>International law is almost a joke. I am sorry for such a bold opinion, but... jaaaa, more or less a joke. There is nothing "binding" in this field. As always, money rules the world, it sounds familiar, right? ;) “违反国际法”这件事本身其实没什么实质后果，因为没有机构有能力强制实施国际法。但是做的太出格把大家搞生气了一起开始经济制裁就非常难办了，毕竟没钱是会死人的。</li>
+    <li>基本上每个国家都在cyber space耍流氓。美国的cyber capacity依然是毋庸置疑、难以撼动的，所以美国的cyber strategy改变会影响整个世界。2018年US Department of Defense出了一个<a href="https://media.defense.gov/2018/Sep/18/2002041658/-1/-1/1/CYBER_STRATEGY_SUMMARY_FINAL.PDF">报告</a>，明确写下了两个原则：一是Defend Forward，二是Persistent Engagement。也就是说对于潜在威胁国家长期的cyber space渗透、潜伏是明确公开的cyber defense战略。虽然这个已经是很久以来各个国家心照不宣的策略，但是这是第一次有政府正式文件公开这个事实。So you can see how this world goes crazy, especially in cyber domain...简单来讲，就等于说你还没做坏事，但是我看出来你要做坏事了，那我就先发制人把你干掉。魔幻不？反正我是觉得很魔幻…</li>
+</ul>
+
+<hr />
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Under the Chatham House Rule, anyone in a meeting or a discussion is free to use the information received, but neither the identity nor the affiliation of the speaker(s), nor that of any other participant, may be revealed. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>如果各位真的有兴趣参加，想了解怎么准备，we can have a chat over a coffee or some drinks ;) <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name></name></author><category term="storytelling" /><category term="security" /><category term="policy" /><summary type="html"><![CDATA[There is always this myth that a cyber incident is between two groups of hackers who wear old-fashioned hoddies doing crazy stuff. Come on people... it is never like this. NEVER!]]></summary></entry><entry><title type="html">The Good, the Bad and the Ugly</title><link href="http://localhost:4000/blog/2022/icrc/" rel="alternate" type="text/html" title="The Good, the Bad and the Ugly" /><published>2022-05-05T00:00:00+02:00</published><updated>2022-05-05T00:00:00+02:00</updated><id>http://localhost:4000/blog/2022/icrc</id><content type="html" xml:base="http://localhost:4000/blog/2022/icrc/"><![CDATA[<p><em>At the end of this story, money still rules the world. But I have met lovely people who were dancing in shackles. It is not all that bad, it is not.</em></p>
 
 <p>今天刚做完Final Presentation，趁着这股子热乎劲儿，写一下能写的、有意思的事儿。这一周睡得太少了，现在那个累的感觉已经有点上头了，写到哪就算哪吧。</p>
 
