@@ -1,5 +1,72 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en, cn"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en, cn" /><updated>2022-05-15T14:26:39+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">blank</title><subtitle>Somehow I start writing. 
-</subtitle><entry><title type="html">如果国家卫星系统被入侵</title><link href="http://localhost:4000/blog/2022/cybercompetition/" rel="alternate" type="text/html" title="如果国家卫星系统被入侵" /><published>2022-05-11T00:00:00+02:00</published><updated>2022-05-11T00:00:00+02:00</updated><id>http://localhost:4000/blog/2022/cybercompetition</id><content type="html" xml:base="http://localhost:4000/blog/2022/cybercompetition/"><![CDATA[<p><strong>Disclaimer: All contents are under the Chatham House Rule<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>! All rights are RESERVED! All opinions are MINE!</strong></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en, cn"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en, cn" /><updated>2022-06-23T12:22:34+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">blank</title><subtitle>Somehow I start writing. 
+</subtitle><entry><title type="html">Let’s Talk It Through - Signal &amp;gt; Telegram &amp;gt;= WhatsApp &amp;gt; WeChat</title><link href="http://localhost:4000/blog/2022/wechat/" rel="alternate" type="text/html" title="Let’s Talk It Through - Signal &amp;gt; Telegram &amp;gt;= WhatsApp &amp;gt; WeChat" /><published>2022-06-21T00:00:00+02:00</published><updated>2022-06-21T00:00:00+02:00</updated><id>http://localhost:4000/blog/2022/wechat</id><content type="html" xml:base="http://localhost:4000/blog/2022/wechat/"><![CDATA[<p>我对Secure Messaging一直还是挺感兴趣的，一年之前还在找thesis的时候跟人讨论过拿WeChat做的可能性，当时分析了一下觉得 it will be really hard to define a project that is within the scope of a master’s thesis, at the same time, juicy enough. 不过正好又想起来这个事，读了新的paper，有了新的讨论，那就趁热总结一下，说不定以后用得上。如果各位觉得这个文章太长了：</p>
+
+<p><strong>TL;DR Just use Signal.</strong> Please just do. Telegram is broken. WhatsApp is suspicious. WeChat has a fundamental flaw in design.</p>
+
+<hr />
+
+<p><em>After 30 years, we finally figured out how to do secure messaging over a network. I said “figured out how”, I didn’t say “managed”, so you know what I mean. <strong>In short, the story goes like this: Researchers break, companies ignore, hackers hahaha</strong> ;)</em></p>
+
+<h4 id="telegram-is-broken"><strong>Telegram Is Broken</strong></h4>
+<p>去年就知道X在做messaging app方面的研究，但是当时还在ethical disclosure的阶段，所以没有办法讨论具体细节，最近<a href="https://mtpsym.github.io/paper.pdf">paper</a>终于出来了。Lessons I learned:</p>
+
+<blockquote>
+    能用well-established protocol就别自己写，能用Signal Protocol就不要硬搞MTProto 2.0，搞了MTProto 2.0没有formal proof就不要嘴硬说secure了，咱们都没有自己以为的那么聪明。
+</blockquote>
+
+<p>谈Telegram的问题得从行业标杆Signal说起。大家都说Signal这个Messaging App安全，其实指的是它使用的<a href="https://en.wikipedia.org/wiki/Signal_Protocol#History">Signal Protocol</a>。这个Signal Protocol是专门为端到端加密通信设计的，主要优势是开源：谁都可以挑毛病，research community作为一个整体可以监督整个设计的安全性，也可以直接证明安全性。In short, the trust is from transparency.</p>
+
+<p>Signal Protocol做的这么好，还有开源的library，大家就用就完事了，end of the story。但是Telegram somehow decided to develop their own protocol, called MTProto 2.0. 从头开始设计protocol，还要求强security，这事儿挺难的，就像编舞一样：没人告诉你什么时候该放什么动作，什么时候该留白，什么时候该把情绪顶上去，只能是跳完一遍才知道，好，或者，烂。MTProto 2.0在设计的时候有一些design decision做的不好，说实话我觉得也不是故意留什么漏洞，应该就是没太想好吧可能，真正做过protocol design的都知道，这真不是个容易的活儿。但是security是挺残酷的，差一点儿也不行。四个漏洞里边第一个最practical，attacker is able to reorder messages；另外三个更偏理论。最后澄清一下关于Telegram的两个常见迷思：</p>
+<ul>
+    <li>End-to-end encryption is <b>NOT</b> activated by default. 就是说咱们只能相信Telegram server不会看用户消息，如果它想看的话，是可以看的。</li>
+    <li>End-to-end encryption is not available for group chat. 群消息是没有端到端加密的，Signal是有的。</li>
+</ul>
+
+<p>Telegram在收到ethical disclosure之后给的回复还挺有意思的<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>。总的来讲基本就是“我们收到了你们的报告，我们知道了。但是除非有直接造成crash的那种bug，我们<strong>不会立即</strong>打补丁。了解了这些安全性问题之后，我们<strong>无法保证</strong>我们修复这些漏洞的具体时间，但是我们会在下一次例行更新的时候修补的！”</p>
+
+<p>其实也可以理解，这么大一个产品，修复安全性问题是挺麻烦的，而且用户只要设置的严格一点这个漏洞是不会影响安全性的。But… Let’s just use Signal ;)</p>
+
+<h4 id="whatsapp-is-suspicious"><strong>WhatsApp Is Suspicious</strong></h4>
+<p>WhatsApp是Meta（也就是FaceBook）旗下的，这一下子直接印象分减没了。但是不得不说同伴压力太大了，也只能是能不用就别用了。<a href="https://en.wikipedia.org/wiki/WhatsApp#End-to-end_encryption">2014年以后WhatsApp开始在自己的客户端上实现Signal Protocol</a>，但是因为它一直也没开源所以也没法验证是不是真的用了，且用对了。我个人的观点是：If you trust FaceBook, you can trust WhatsApp for end-to-end encryption. 反正我是不相信FB。So… Let’s just use Signal ;)</p>
+
+<h4 id="关于微信"><strong>关于微信</strong></h4>
+<p>那有意思的事儿可真是太多了，咱们挑两个简单说说。</p>
+
+<blockquote>
+    微信真没有端到端加密（end-to-end encryption）。
+</blockquote>
+
+<p>这虽然不是什么新鲜事儿，但是该说还是得实话实说。微信的整个通信协议采用的是client-server设计，也就是说server是永远online的，client可以上线下线。client-server之间的加密通信使用了一个叫mmtls的协议<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>。mmtls是基于TLS1.3设计的，从公开的文档来看基本上是一摸一样的，除了去掉了optional client authentication之外，没有什么实质性的变化。举例来讲clientA跟clientB通信，clientA跟server的通信是加密的，server很clientB的通信是加密的，但是消息对server是可见的。从架构上来讲这个client-server的设计选择就可以比较容易地在server上设置敏感词筛查，或者调查取证（law-enforcement）。</p>
+
+<blockquote>
+    微信（WeiXin）和WeChat（微信海外版）的用户隐私保护是不一样的。
+</blockquote>
+
+<p>微信用户隐私保护指引中第一章第29条明确提到“我们<strong>不会收集</strong>你的聊天记录。你在微信中的聊天记录会存储在你的终端设备，你可以选择自行备份、删除或在不同设备中转移”。但是说是这么说，怎么证明server端没存，这就很难证明了。同时第一章第32条也写了“另外，根据相关法律法规及国家标准，以下情形中，我们可能会处理你的相关个人信息而<strong>无需征求</strong>你的授权同意…”。怎么同时理解这两条就比较矛盾了，如果根据调查需要，需要获取犯罪嫌疑人的微信通信记录，那是<strong>存还是不存</strong>，存了的话<strong>算不算</strong>是触犯个人隐私保护法，触犯相关法律收集的证据<strong>能不能</strong>作为庭上证据。我不是学法的我不懂，各位有了解这个方面的希望能给我讲讲，我还挺想知道的。</p>
+
+<p>WeChat的用户隐私保护跟微信是不一样的<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>，<strong>用词</strong>和描述的<strong>具体程度</strong>都不太一样，大概就是“我们承诺不会永久保留用户的消息记录，文字消息超过72小时、图片语音录像文件超过120小时，服务器上的记录会永久删除”。我不知道国内的用户隐私保护指引为啥没写这个，是没有这个超时删除的机制，还是只是没写。</p>
+
+<h4 id="wandering-thoughts">Wandering Thoughts</h4>
+
+<p>“用户隐私和社会正义不可兼得”，这个论调已经存在很久了，但是讨论了这么久也没人能说明白。从western democracy的context下，不管是GDPR还是最近的Digital Market Act都可以表明，privacy wins。我们当然可以说context不一样，culture不一样，什么什么都不一样，but in my opinion, this is not the right way to address the issue.</p>
+
+<p>We need great social scientists. 咱们还是得直面淋漓的鲜血，这事儿一样就是一样，不一样就是不一样，just conduct a scientific research and show me the result. 没有系统性地研究就直接说“context不一样”，这话说出来听着就心虚，其实想想也没啥可害怕的。If we made a mistake, we fix it, then we move on. It is never too late to put everything under the sunlight ;)</p>
+
+<hr />
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>As is described in the paper “We notified Telegram’s developers about the vulnerabilities that we found in MTProto on 16 April 2021. They acknowledged receipt soon after and the behaviours we describe on 8 June 2021. They awarded a bug bounty for the timing side channel and for the overall analysis. We were informed by the Telegram developers that they do not do security or bugfix releases except for immediate post-release crash fixes. The development team also informed us that they did not wish to issue security advisories at the time of patching nor commit to release dates for specific fixes. As a consequence the fixes were being rolled out as part of regular Telegram updates. The Telegram developers informed us that as of version 7.8.1 for Android, 7.8.3 for iOS and 2.8.8 for Telegram Desktop all vulnerabilities reported here were addressed.” <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>https://github.com/WeMobileDev/article/blob/master/基于TLS1.3的微信安全通信协议mmtls介绍.md <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>We do not permanently retain the content of any messages on our servers whether they are text, audio or rich media files such as photos, videos, or documents, unless you or your recipient saves them as a Favorite, or it is a message the administrator of your group chat added as a Group Notice. Once 72 hours has lapsed since you sent your chat message, or 120 hours for images, audio, videos, and files, WeChat permanently deletes the content of the message on our servers. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name></name></author><category term="SoK" /><category term="security" /><category term="privacy" /><summary type="html"><![CDATA[但凡是个Messaging App都说自己secure，说是挺容易的，你倒是真干呐]]></summary></entry><entry><title type="html">如果国家卫星系统被入侵</title><link href="http://localhost:4000/blog/2022/cybercompetition/" rel="alternate" type="text/html" title="如果国家卫星系统被入侵" /><published>2022-05-11T00:00:00+02:00</published><updated>2022-05-11T00:00:00+02:00</updated><id>http://localhost:4000/blog/2022/cybercompetition</id><content type="html" xml:base="http://localhost:4000/blog/2022/cybercompetition/"><![CDATA[<p><strong>Disclaimer: All contents are under the Chatham House Rule<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>! All rights are RESERVED! All opinions are MINE!</strong></p>
 
 <p>前一阵子参加了<a href="https://www.gcsp.ch/events/cyber-912-strategy-challenge-2022">Cyber 9/12 Strategy Challenge 2022</a>，这个比赛一共就两天，结束之后睡了三天才活过来。虽然挺累的，但是真的挺好玩的，推荐对cyber policy&amp;strategy感兴趣的朋友参加。这两天帮忙写（贼正经的）参赛总结<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>，回顾了一下整个过程还有挺多有意思的小事儿。今天先写一下关于这个比赛大概的情况，参赛的经历，最后写点儿有意思的事儿。You know, there are so many interesting stories to tell. Have fun reading ;)</p>
 
