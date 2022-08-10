@@ -1,5 +1,55 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en, cn"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en, cn" /><updated>2022-07-03T21:43:59+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">blank</title><subtitle>Somehow I start writing. 
-</subtitle><entry><title type="html">The Drama of My PhD Application - Just Like a Marriage</title><link href="http://localhost:4000/blog/2022/phdapp/" rel="alternate" type="text/html" title="The Drama of My PhD Application - Just Like a Marriage" /><published>2022-06-30T00:00:00+02:00</published><updated>2022-06-30T00:00:00+02:00</updated><id>http://localhost:4000/blog/2022/phdapp</id><content type="html" xml:base="http://localhost:4000/blog/2022/phdapp/"><![CDATA[<p>There is this thing: I first sign some documents, then I will be in a long-term commitment. At the beginning, I do not know where this thing will take me in the future, how long it will last exactly, or what will be the ending.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en, cn"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en, cn" /><updated>2022-08-10T17:44:50+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">blank</title><subtitle>Somehow I start writing. 
+</subtitle><entry><title type="html">当我跑步的时候我在想什么</title><link href="http://localhost:4000/blog/2022/feminismmaxism/" rel="alternate" type="text/html" title="当我跑步的时候我在想什么" /><published>2022-08-05T00:00:00+02:00</published><updated>2022-08-05T00:00:00+02:00</updated><id>http://localhost:4000/blog/2022/feminismmaxism</id><content type="html" xml:base="http://localhost:4000/blog/2022/feminismmaxism/"><![CDATA[<p><em>早上跑步的时候脑子是最自由的，除了冒出“这家的咖啡机真好看以后我也要买一台”和“旁边骑车去上班飞驰而过的大姐身上喷的香水也太好闻了”这类想法之外，偶尔也会想到点别的。那天突然想起大概一年以前看到过一篇文章<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>，主要写的是从女性主义视角看待阶级和工作问题，依稀记得其中对于马克思主义和女性主义的交集的讨论挺有意思的。为了提高易读性，一些名词我自己随便做了翻译，可能有不准确的地方，凑活看吧谢谢各位。</em></p>
+
+<h4 id="马克思主义中的女性解放">马克思主义中的女性解放</h4>
+<p>马克思主义中“以人为中心”的思想本身就把女性群体包含在讨论范围内。它将社会中对于女性的剥削至少推回到私有财产产生时期：生产资料的富余衍生出“分配”的需求，而分配需要一个社会单位来作为客体。原子家庭（父母子女）作为这样的一个客体承接被分配的生产资料，也就导致私有财产的产生。这个过程将女性作为家庭“照护者”的角色加强，与其相对的男性“挣面包的人”（breadwinner）在本就拥有更多生产资料的情况下获得更多的财富积累。这一表面上看起来按劳分配的过程忽略了家庭内部劳动成果的认可，举例来讲就是家庭“照护者”提供情感支持和家务劳动并不会“按小时计费”，就像奥运会上没有“跳皮筋项目”<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>。</p>
+
+<p>马克思主义将社会对于女性压迫的加强（至少是部分）归因于资本的发展，并强调女性解放的重要性，鼓励女性主义者参与到社会运动中打破阶级。如果用一种简单粗暴的方式来理解，它至少看到了，女性群体作为社会中经济权力弱势的一方，在一个以资本为中心的世界中，无可避免地处在一个“被剥削”的地位。权力（或者阶级）弱势是因，“被剥削”是果。</p>
+
+<p>如果从这个角度来看，马克思主义中对于性别问题的界定与阶级划分似乎是平行的：女性的压迫来源于经济地位的低下，其本质还是阶级。这种“平行”的假设似乎也说得通，比如我们对于“女强人”这个词的定义更多的指的是一个经济地位高的女性，在社会的大部分场景下，我们确实默认“女强人”在阶级上是高于没什么钱的男性的。</p>
+
+<h4 id="从平行到垂直从一维到二维">从平行到垂直，从一维到二维</h4>
+<p>不过说实话，如果性别问题只是平行于阶级划分，那真的，有点无聊。</p>
+
+<p>马克思主义最初关于性别问题的探讨受限于当时女性主义的发展，依然留在二元性别的框架里，一个最基本的修补就是接受女性主义中关于“性别是一种社会建构”的思想<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>，将“女性”的概念拓展到“女性气质”。那么经济条件作为一个坐标轴，性别气质作为一个坐标轴，一个人的男性气质越强和经济地位越高，这个人的社会排序越靠前。这个二维的网格划分也可以解释，在相同经济条件下，性别气质的不同也会造成社会排序的差别，简单粗暴举例来讲：一个有钱、霸道的女人是“母老虎”，一个有钱、霸道的男人是“霸道总裁”。另一个有意思的现象是，我们对于反向性别气质的双重标准。印象中我认识的所有体现出强烈女性气质的男同学都被霸凌得很惨，但是反过来女性体现出强烈的男性气质某种程度上是被鼓励的<sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">4</a></sup>。</p>
+
+<h4 id="两种懦弱">两种懦弱</h4>
+<p>突然想起来，三年前有一次跟朋友A聊天，虽然跟内容没什么联系，但是特别逗。我们一边喝酒一边聊每个人身上男性气质与女性气质的共生，不知道怎么就开始总结“雄性懦弱”（大概就是“有毒的男性气质的懦弱”），最后说有两种：</p>
+
+<p>一种懦弱是体会不到现有性别框架下对于男性气质本身的束缚，男性气质作为一种工具，情感流动是不被允许的，或者产生情绪就会被严惩。</p>
+
+<p>另一种懦弱是在体会到性别框架下对于男性气质的束缚之后，依然选择留在这个框架中，因为诚实是需要付出代价的，打破框架代表着所有的既得利益都会消失。</p>
+
+<p>我问A：你觉得哪一种你更讨厌？</p>
+
+<p>A：第一种，因为我是没有办法跟鱼谈论水的。你怎么想？</p>
+
+<p>我：（笑了一下）你这个比喻挺好的，但是我更讨厌第二种，因为我叫不醒一个装睡的人。</p>
+
+<p>A：（也笑了，点点头）是，确实是。不过说实话，原来我就是第一种。</p>
+
+<p>我：巧了，以前我是第二种，合着咱俩这是搁这儿自我厌恶呢。（俩人都没酒了，又重新倒上）哎呀，喝一个吧。</p>
+
+<p>A：喝一个！</p>
+
+<hr />
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Feminist Perspectives on Class and Work, <a href="https://plato.stanford.edu/entries/feminism-class/">Available at: https://plato.stanford.edu/entries/feminism-class/</a>. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>私心推荐一下Pretend It’s a City，真的各位，Fran Lebowitz可太逗了, <a href="https://en.wikipedia.org/wiki/Pretend_It%27s_a_City">https://en.wikipedia.org/wiki/Pretend_It%27s_a_City</a>. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>好像有一句台词叫“如果你把一个男人放在一个女人的位置上，他就会变成一个女人”，我想不起来是在哪个文章还是电影里看到的了，如果以后找到出处再回来补一下引用. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:4" role="doc-endnote">
+      <p>但是不得不说往往这会加强这个女性身上的厌女情绪. <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name></name></author><category term="WanderingThoughts" /><category term="philosophy" /><summary type="html"><![CDATA[如果阶级和性别的本质都是权利关系，那么它们是平行的，还是垂直的？]]></summary></entry><entry><title type="html">The Drama of My PhD Application - Just Like a Marriage</title><link href="http://localhost:4000/blog/2022/phdapp/" rel="alternate" type="text/html" title="The Drama of My PhD Application - Just Like a Marriage" /><published>2022-06-30T00:00:00+02:00</published><updated>2022-06-30T00:00:00+02:00</updated><id>http://localhost:4000/blog/2022/phdapp</id><content type="html" xml:base="http://localhost:4000/blog/2022/phdapp/"><![CDATA[<p>There is this thing: I first sign some documents, then I will be in a long-term commitment. At the beginning, I do not know where this thing will take me in the future, how long it will last exactly, or what will be the ending.</p>
 
 <p><strong>Yes, this thing can be my marriage, or… my PhD ;)</strong></p>
 
@@ -163,7 +213,7 @@ The opinions from our important ones matter: our families, friends, partners… 
       <p>We do not permanently retain the content of any messages on our servers whether they are text, audio or rich media files such as photos, videos, or documents, unless you or your recipient saves them as a Favorite, or it is a message the administrator of your group chat added as a Group Notice. Once 72 hours has lapsed since you sent your chat message, or 120 hours for images, audio, videos, and files, WeChat permanently deletes the content of the message on our servers. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name></name></author><category term="SoK" /><category term="security" /><category term="privacy" /><summary type="html"><![CDATA[但凡是个Messaging App都说自己secure，说是挺容易的，你倒是真干呐]]></summary></entry><entry><title type="html">如果国家卫星系统被入侵</title><link href="http://localhost:4000/blog/2022/cybercompetition/" rel="alternate" type="text/html" title="如果国家卫星系统被入侵" /><published>2022-05-11T00:00:00+02:00</published><updated>2022-05-11T00:00:00+02:00</updated><id>http://localhost:4000/blog/2022/cybercompetition</id><content type="html" xml:base="http://localhost:4000/blog/2022/cybercompetition/"><![CDATA[<p><strong>Disclaimer: All contents are under the Chatham House Rule<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>! All rights are RESERVED! All opinions are MINE!</strong></p>
+</div>]]></content><author><name></name></author><category term="ReadingNotes" /><category term="security" /><category term="privacy" /><summary type="html"><![CDATA[但凡是个Messaging App都说自己secure，说是挺容易的，你倒是真干呐]]></summary></entry><entry><title type="html">如果国家卫星系统被入侵</title><link href="http://localhost:4000/blog/2022/cybercompetition/" rel="alternate" type="text/html" title="如果国家卫星系统被入侵" /><published>2022-05-11T00:00:00+02:00</published><updated>2022-05-11T00:00:00+02:00</updated><id>http://localhost:4000/blog/2022/cybercompetition</id><content type="html" xml:base="http://localhost:4000/blog/2022/cybercompetition/"><![CDATA[<p><strong>Disclaimer: All contents are under the Chatham House Rule<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>! All rights are RESERVED! All opinions are MINE!</strong></p>
 
 <p>前一阵子参加了<a href="https://www.gcsp.ch/events/cyber-912-strategy-challenge-2022">Cyber 9/12 Strategy Challenge 2022</a>，这个比赛一共就两天，结束之后睡了三天才活过来。虽然挺累的，但是真的挺好玩的，推荐对cyber policy&amp;strategy感兴趣的朋友参加。这两天帮忙写（贼正经的）参赛总结<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>，回顾了一下整个过程还有挺多有意思的小事儿。今天先写一下关于这个比赛大概的情况，参赛的经历，最后写点儿有意思的事儿。You know, there are so many interesting stories to tell. Have fun reading ;)</p>
 
