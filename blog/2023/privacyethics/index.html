@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en, cn">
+
+  <!-- Head -->
+  <head>    <!-- Metadata, OpenGraph and Schema.org -->
+    
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Boya  Wang | 安全和隐私保护研究中的伦理意涵</title>
+    <meta name="author" content="Boya  Wang" />
+    <meta name="description" content="是什么(what)、为什么(why)、怎么办(how)，这三个问题里，工程师只能回答第一个。" />
+    <meta name="keywords" content="Boya Wang, blog, dancer, security" />
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous" />
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="none" id="highlight_theme_light" />
+
+    <!-- Styles -->
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="http://localhost:4000/blog/2023/privacyethics/">
+    
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark" />
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav sticky-bottom-footer">
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <!-- This one will generate error bc the generated url is http://localhost:4000, I guess this is bc we use the static _site dir, and it is generated locally, hence ends up as localhost -->
+          <!-- <a class="navbar-brand title font-weight-lighter" href="http://localhost:4000"> -->
+          <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Boya</span>   Wang</a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About/Research -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/">Research</a>
+              </li>
+              
+              <!-- Blog -->
+              <li class="nav-item active">
+                <a class="nav-link" href="/blog/">Blog</a>
+              </li>
+
+              <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/more/">And more about me</a>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <div class="toggle-container">
+                <a id="light-toggle">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </a>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Content -->
+    <div class="container mt-5">
+      <!-- _layouts/post.html -->
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">安全和隐私保护研究中的伦理意涵</h1>
+    <h3 class="post-description">是什么(what)、为什么(why)、怎么办(how)，这三个问题里，工程师只能回答第一个。</h3>
+    <p class="post-meta">February 10, 2023</p>
+    <p class="post-tags">
+      <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+        ·  
+        <a href="/blog/tag/privacy">
+          <i class="fas fa-hashtag fa-sm"></i> privacy</a>  
+          <a href="/blog/tag/philosophy">
+          <i class="fas fa-hashtag fa-sm"></i> philosophy</a>  
+          
+        ·  
+        <a href="/blog/category/storytelling">
+          <i class="fas fa-tag fa-sm"></i> storytelling</a>  
+          
+
+    </p>
+  </header>
+
+  <article class="post-content">
+    <p>刚查了一下，cybersecurity在中文里的翻译还依然是“网络安全”，“网络空间安全”，“网络信息安全”。但实际上这些翻译都不是很准确…cybersecurity”是什么“解释不明白，造成的后果就是跟老何打电话的时候直接问我：你是不是在瑞士当间谍？</p>
+
+<p>我：……</p>
+
+<hr>
+
+<h4 id="security-freaks"><strong>Security Freaks</strong></h4>
+<p>平时同事之间开玩笑，大家会叫自己security freaks（怪胎）自嘲。
+因为工业界的话，做好功能肯定还是最主要的，做安全是最近这些年捅的篓子太多了，工业界才开始慢慢重视一些，但也只是“一些”而已。不过我自己觉得，能做安全和隐私保护相关的研究还是挺幸运的，至少做到现在我还是可以肯定地说：I am having fun.</p>
+
+<p>安全和隐私保护研究的那种”好玩“，除了密码学(cryptography)里面那些偏数学的美，还有很多来自于跟哲学中伦理学(ethics)的紧密联系。每一次，真的，每！一！次！我说“要是没读计算机我估计会去读哲学”，对方脸上都是一副“你逗我呢吧”的表情。说实话这种时候我在心里是翻了个白眼的。</p>
+
+<p>读计算机的怎么就不能搞哲学？</p>
+
+<hr>
+
+<h4 id="密码学中的权力博弈"><strong>密码学中的权力博弈</strong></h4>
+<p><i>
+<span style="font-size:0.8em;">我对天发誓这部分绝对没有数学公式。</span>
+</i></p>
+
+<p>加密通信是cybersecurity中一直比较活跃的研究领域，而密码学是加密通信的基础。我很不喜欢这个简单粗暴的比喻，但是好吧…加密通信是盖房子，那密码学是砖。给微信消息加密、解密用的算法，是密码学研究的应用。好了，技术的部分到这就结束了，咱们开始搞哲学。</p>
+
+<p>从本质上来讲，密码学并不能像人们想象的那样“凭空生产秘密”，密码学能做到的是“保护你已经知道的秘密”<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>。从这个表述就能看出来，密码学的应用前提是“我知道一个别人不知道的秘密”，其实就是信息差。而信息差是可以产生或者巩固已有的权力差异的：我知道你的信息，我了解你的关系网，我影响你的政治决定。这个观点已经是老生常谈了，最臭名昭著、也已经被用烂了的例子是Facebook–Cambridge Analytica data scandal：一个英国分析公司通过27万下载了Facebook App的用户收集了超过3000万人的信息，通过这些数据描绘的用户画像提供有针对性的政治推送，受雇于政府，对美国大选和英国脱欧施加影响。</p>
+
+<p>对密码学研究中的政治意味的阐述，我最喜欢2016年Phillip Rogaway写的“<em>The Moral Character of Cryptographic Work</em>”<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>。文中指出，密码学中的政治性至少存在于两个方面，一是密码学的历史起源是为了满足军用通信的保密要求，而且这个学科与军事的联系至今也是非常紧密的；二是密码学家这个群体本身也服务于政治力量，例如一些最前沿的密码学研究往往是由政府提供研究资金，或者一些密码学家也直接收政府雇佣充当政策咨询顾问之类的角色。从这两个方面来说，密码学作为一个看似去政治化的科学，实际上是被本就手握权力的人用于维护已有的特权和阶级。密码学家作为一个群体，则是有意无意地选择了一个相当偏“右”的立场，也就是“维护已有的社会规范”，而并没有质问这种规范是不是公平的、正义的。Phillip写这篇文章的时候距离斯诺登事件过去了三年，文中对于密码学家在面对大规模监视和审查变成日常时的集体失语有一段非常深刻的反思和质问：</p>
+
+<blockquote>
+    如果密码学最基本的目标是实现安全通信，那么当普通人在电子交互时甚至缺乏一点点通信隐私时，这怎么可能不是我们领域的巨大失败呢？然而我很快意识到大多数密码学家并不这么看。大多数人似乎觉得这些披露甚至没有牵连到我们密码学家。
+</blockquote>
+
+<p>经常听人问：科学家为什么要谈论政治？come on，本应该问的是：科学家怎么可能不谈论政治呢？</p>
+
+<hr>
+
+<h4 id="隐私保护的伦理依据"><strong>隐私保护的伦理依据</strong></h4>
+<p><i>
+<span style="font-size:0.8em;">三年了，每次我听到“我们不是早就没有隐私了吗？还挣扎什么？”的时候，都会有五秒钟强行压抑住自己想长篇大论两小时的冲动。</span>
+</i></p>
+
+<p>首先，“<em>因为我们已经没有隐私了，所以隐私保护已经不值得讨论了</em>”这个论证本身的逻辑就是不成立的。“<em>我们还有没有隐私</em>”并不能成为“<em>隐私保护是不是值得讨论</em>”的依据，就像我们不能用“<em>有一些素食主义者是虚伪的</em>”来佐证“<em>为了环境保护坚持素食主义是没有意义的</em>”，就像我们不能因为“<em>这一箱苹果里面有一个烂苹果，而那一箱葡萄里没有一个烂葡萄</em>”就下结论说“<em>葡萄是比苹果更好的水果</em>”…好了，我扯太远了，收，拉回来。说回隐私保护。</p>
+
+<p>“<strong>我没什么好隐藏的</strong>(I have nothing to hide)”常常被很多人用来表明自己不需要关心隐私保护问题。可是隐私保护的正当性并不建立在信息的隐藏中，隐私保护最本质的价值，从哲学意义上讲，是对于人的自治权（autonomy）的保护。隐私，从定义上来说<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>，产生于公共空间和个人空间的分隔之后。在公共空间中，我们默认人的行为是接受审查的，不管这种审查是基于法律还是道德；在个人空间中，我们期待自己的行为是可以免于收到“注视”的，也就是说我们享有“决定并且不被审判”的权利，尤其是社会道德的审判。审查作为一种手段，破坏的是公共空间和个人空间的边界，当我们了解到自身的所有行为都是“被注视且可以作为审判依据”时，恐惧会让我们不敢做出真正遵从内心的选择。在这个情景下，民主是无法实现的，因为个体的选择权是被架空的。当然，没有任何一条法律要求你公开自己的所有信息，但是在一个没有隐私保护的世界里，“不公开”意味着”有所隐瞒“，”有所隐瞒“等同于”违背社会规范“，仅仅是”不同“就会成为实行惩罚的依据。就像文革的时候也没有任何一条法律规定你在任何场合发言一定要先背毛主席语录，但是如果一个人开口第一句不是毛主席语录，那就等同于背叛共产主义事业，背叛共产主义事业当然是可以被惩罚的罪名。强道德规范社会中的一系列过于简化的等式，为实行任何惩罚提供的合理性是非常可怕的。</p>
+
+<p>除了广泛存在的对于隐私保护的误解之外，另一种非常值得警惕的现象是“为了隐私保护而隐私保护”。对于这个问题，David Evans有一个特别好的演讲“The Dragon in the Room”<sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">4</a></sup>。大科技公司依靠自己的生态掌握海量的用户数据，近十年来隐私保护法律的推出，从很大程度上确实阻止了第三方公司向这些大科技公司收购用户数据用于盈利的行为。但是法律只限制了这些数据的流通，没有限制数据的<strong>收集</strong><sup id="fnref:5" role="doc-noteref"><a href="#fn:5" class="footnote" rel="footnote">5</a></sup>。这意味着像Google，Apple这些公司成为了整个权力游戏的中心，拥有绝对的话语权。隐私保护技术研究的初衷是：通过隐私保护的这种<strong>手段</strong>，避免公司或者政府，由于拥有大量用户数据，而产生操控用户的可能性。技术只是一种手段，保护人的自治权是目的。但是现在，大科技公司提供高薪吸引隐私保护研究人员，在产品中使用隐私保护技术。这些公司在执法部门面前可以非常自信地说”我们使用了blabla隐私保护技术，遵从了XXX隐私保护法，所以我们的数据收集是合法的，收集这些数据对于我们产品性能提升是非常重要的blabla“。就像之前提到的，信息差产生权力差，拥有信息就拥有权力，个人用户相对于公司来讲，在本就处于权力劣势，在交出个人数据的情况下，这种劣势被进一步巩固。现有的隐私保护法律在这种情况下也相当于是失去了牙齿，没有真正能够保护到用户。科技公司甚至可以做到仅仅通过玩一些文字游戏，就完全保留主导权。而隐私保护研究在偏离了“保护人的自治权”这个本质以后，反而变成了握在敌人手里的一把枪。</p>
+
+<p>是什么(what)、为什么(why)、怎么办(how)，这三个问题里，工程师终究只能回答第一个，也是最容易的一个。作为研究者，当我们过于关注”How can I do this?”而忽略掉”Why am I doing this?”的时候，是不是已经意味着失掉了一些阵地？</p>
+
+<hr>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>即便是像Diffi-Hellman Key Exchange这样最接近“凭空生产秘密”的算法，它也必须基于一个足够好的randomness generator。一方面这个randomness generator可以被看作是“已有的秘密”或者“已有的权力”，另一方面也可以将它看作是“对随机性的保护”。两个方面实际上都不能算是“凭空生产秘密”。 <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p><a href="https://eprint.iacr.org/2015/1162.pdf" target="_blank" rel="noopener noreferrer">The Moral Character of Cryptographic Work</a>，不愿意读文章的话，这个<a href="https://youtu.be/1ReIILmcLpk" target="_blank" rel="noopener noreferrer">演讲视频</a>也不错。 <a href="#fnref:2" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>隐私的定义当然不止一种，我目前最喜欢的是<a href="https://crypto.stanford.edu/portia/papers/RevnissenbaumDTP31.pdf" target="_blank" rel="noopener noreferrer">“Privacy as Contextual Integrity”, Helen Nissenbaum (2004)</a> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:4" role="doc-endnote">
+      <p><a href="https://uvasrg.github.io/google-federated-privacy-2019-the-dragon-in-the-room/" target="_blank" rel="noopener noreferrer">The Dragon in the Room, David Evans (2019)</a> <a href="#fnref:4" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+    <li id="fn:5" role="doc-endnote">
+      <p>GDPR之类的法律确实试图限制数据收集，大概意思是“如果这个数据对于产品功能不是必要的，就不能收集”，但实际上，科技公司对什么是对于产品功能是“必要的”有很灵活的解释权，毕竟这个世界上最贵的律师怕不是都被它们雇走了。 <a href="#fnref:5" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+  </ol>
+</div>
+
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->    <footer class="sticky-bottom mt-5">
+      <div class="container">
+        © Copyright 2023 Boya  Wang. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">modified al-folio</a> theme.
+
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js" integrity="sha256-l/1pMF/+J4TThfgARS6KwWrk/egwuVvhRzfLAMQ6Ds4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha256-SyTu6CwrfOhaznYZPoolVw2rxoY7lKYKQvqbtqN93HI=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+  <script src="/assets/js/zoom.js"></script><!-- Load Common JS -->
+  <script src="/assets/js/common.js"></script>
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    
+  </body>
+</html>
+

@@ -1,5 +1,73 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en, cn"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en, cn" /><updated>2022-08-10T17:44:50+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">blank</title><subtitle>Somehow I start writing. 
-</subtitle><entry><title type="html">当我跑步的时候我在想什么</title><link href="http://localhost:4000/blog/2022/feminismmaxism/" rel="alternate" type="text/html" title="当我跑步的时候我在想什么" /><published>2022-08-05T00:00:00+02:00</published><updated>2022-08-05T00:00:00+02:00</updated><id>http://localhost:4000/blog/2022/feminismmaxism</id><content type="html" xml:base="http://localhost:4000/blog/2022/feminismmaxism/"><![CDATA[<p><em>早上跑步的时候脑子是最自由的，除了冒出“这家的咖啡机真好看以后我也要买一台”和“旁边骑车去上班飞驰而过的大姐身上喷的香水也太好闻了”这类想法之外，偶尔也会想到点别的。那天突然想起大概一年以前看到过一篇文章<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>，主要写的是从女性主义视角看待阶级和工作问题，依稀记得其中对于马克思主义和女性主义的交集的讨论挺有意思的。为了提高易读性，一些名词我自己随便做了翻译，可能有不准确的地方，凑活看吧谢谢各位。</em></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en, cn"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en, cn" /><updated>2023-02-11T23:25:55+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">blank</title><subtitle>Somehow I start writing. 
+</subtitle><entry><title type="html">安全和隐私保护研究中的伦理意涵</title><link href="http://localhost:4000/blog/2023/privacyethics/" rel="alternate" type="text/html" title="安全和隐私保护研究中的伦理意涵" /><published>2023-02-10T00:00:00+01:00</published><updated>2023-02-10T00:00:00+01:00</updated><id>http://localhost:4000/blog/2023/privacyethics</id><content type="html" xml:base="http://localhost:4000/blog/2023/privacyethics/"><![CDATA[<p>刚查了一下，cybersecurity在中文里的翻译还依然是“网络安全”，“网络空间安全”，“网络信息安全”。但实际上这些翻译都不是很准确…cybersecurity”是什么“解释不明白，造成的后果就是跟老何打电话的时候直接问我：你是不是在瑞士当间谍？</p>
+
+<p>我：……</p>
+
+<hr />
+
+<h4 id="security-freaks"><strong>Security Freaks</strong></h4>
+<p>平时同事之间开玩笑，大家会叫自己security freaks（怪胎）自嘲。
+因为工业界的话，做好功能肯定还是最主要的，做安全是最近这些年捅的篓子太多了，工业界才开始慢慢重视一些，但也只是“一些”而已。不过我自己觉得，能做安全和隐私保护相关的研究还是挺幸运的，至少做到现在我还是可以肯定地说：I am having fun.</p>
+
+<p>安全和隐私保护研究的那种”好玩“，除了密码学(cryptography)里面那些偏数学的美，还有很多来自于跟哲学中伦理学(ethics)的紧密联系。每一次，真的，每！一！次！我说“要是没读计算机我估计会去读哲学”，对方脸上都是一副“你逗我呢吧”的表情。说实话这种时候我在心里是翻了个白眼的。</p>
+
+<p>读计算机的怎么就不能搞哲学？</p>
+
+<hr />
+
+<h4 id="密码学中的权力博弈"><strong>密码学中的权力博弈</strong></h4>
+<p><i>
+<span style="font-size:0.8em;">我对天发誓这部分绝对没有数学公式。</span>
+</i></p>
+
+<p>加密通信是cybersecurity中一直比较活跃的研究领域，而密码学是加密通信的基础。我很不喜欢这个简单粗暴的比喻，但是好吧…加密通信是盖房子，那密码学是砖。给微信消息加密、解密用的算法，是密码学研究的应用。好了，技术的部分到这就结束了，咱们开始搞哲学。</p>
+
+<p>从本质上来讲，密码学并不能像人们想象的那样“凭空生产秘密”，密码学能做到的是“保护你已经知道的秘密”<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>。从这个表述就能看出来，密码学的应用前提是“我知道一个别人不知道的秘密”，其实就是信息差。而信息差是可以产生或者巩固已有的权力差异的：我知道你的信息，我了解你的关系网，我影响你的政治决定。这个观点已经是老生常谈了，最臭名昭著、也已经被用烂了的例子是Facebook–Cambridge Analytica data scandal：一个英国分析公司通过27万下载了Facebook App的用户收集了超过3000万人的信息，通过这些数据描绘的用户画像提供有针对性的政治推送，受雇于政府，对美国大选和英国脱欧施加影响。</p>
+
+<p>对密码学研究中的政治意味的阐述，我最喜欢2016年Phillip Rogaway写的“<em>The Moral Character of Cryptographic Work</em>”<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>。文中指出，密码学中的政治性至少存在于两个方面，一是密码学的历史起源是为了满足军用通信的保密要求，而且这个学科与军事的联系至今也是非常紧密的；二是密码学家这个群体本身也服务于政治力量，例如一些最前沿的密码学研究往往是由政府提供研究资金，或者一些密码学家也直接收政府雇佣充当政策咨询顾问之类的角色。从这两个方面来说，密码学作为一个看似去政治化的科学，实际上是被本就手握权力的人用于维护已有的特权和阶级。密码学家作为一个群体，则是有意无意地选择了一个相当偏“右”的立场，也就是“维护已有的社会规范”，而并没有质问这种规范是不是公平的、正义的。Phillip写这篇文章的时候距离斯诺登事件过去了三年，文中对于密码学家在面对大规模监视和审查变成日常时的集体失语有一段非常深刻的反思和质问：</p>
+
+<blockquote>
+    如果密码学最基本的目标是实现安全通信，那么当普通人在电子交互时甚至缺乏一点点通信隐私时，这怎么可能不是我们领域的巨大失败呢？然而我很快意识到大多数密码学家并不这么看。大多数人似乎觉得这些披露甚至没有牵连到我们密码学家。
+</blockquote>
+
+<p>经常听人问：科学家为什么要谈论政治？come on，本应该问的是：科学家怎么可能不谈论政治呢？</p>
+
+<hr />
+
+<h4 id="隐私保护的伦理依据"><strong>隐私保护的伦理依据</strong></h4>
+<p><i>
+<span style="font-size:0.8em;">三年了，每次我听到“我们不是早就没有隐私了吗？还挣扎什么？”的时候，都会有五秒钟强行压抑住自己想长篇大论两小时的冲动。</span>
+</i></p>
+
+<p>首先，“<em>因为我们已经没有隐私了，所以隐私保护已经不值得讨论了</em>”这个论证本身的逻辑就是不成立的。“<em>我们还有没有隐私</em>”并不能成为“<em>隐私保护是不是值得讨论</em>”的依据，就像我们不能用“<em>有一些素食主义者是虚伪的</em>”来佐证“<em>为了环境保护坚持素食主义是没有意义的</em>”，就像我们不能因为“<em>这一箱苹果里面有一个烂苹果，而那一箱葡萄里没有一个烂葡萄</em>”就下结论说“<em>葡萄是比苹果更好的水果</em>”…好了，我扯太远了，收，拉回来。说回隐私保护。</p>
+
+<p>“<strong>我没什么好隐藏的</strong>(I have nothing to hide)”常常被很多人用来表明自己不需要关心隐私保护问题。可是隐私保护的正当性并不建立在信息的隐藏中，隐私保护最本质的价值，从哲学意义上讲，是对于人的自治权（autonomy）的保护。隐私，从定义上来说<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>，产生于公共空间和个人空间的分隔之后。在公共空间中，我们默认人的行为是接受审查的，不管这种审查是基于法律还是道德；在个人空间中，我们期待自己的行为是可以免于收到“注视”的，也就是说我们享有“决定并且不被审判”的权利，尤其是社会道德的审判。审查作为一种手段，破坏的是公共空间和个人空间的边界，当我们了解到自身的所有行为都是“被注视且可以作为审判依据”时，恐惧会让我们不敢做出真正遵从内心的选择。在这个情景下，民主是无法实现的，因为个体的选择权是被架空的。当然，没有任何一条法律要求你公开自己的所有信息，但是在一个没有隐私保护的世界里，“不公开”意味着”有所隐瞒“，”有所隐瞒“等同于”违背社会规范“，仅仅是”不同“就会成为实行惩罚的依据。就像文革的时候也没有任何一条法律规定你在任何场合发言一定要先背毛主席语录，但是如果一个人开口第一句不是毛主席语录，那就等同于背叛共产主义事业，背叛共产主义事业当然是可以被惩罚的罪名。强道德规范社会中的一系列过于简化的等式，为实行任何惩罚提供的合理性是非常可怕的。</p>
+
+<p>除了广泛存在的对于隐私保护的误解之外，另一种非常值得警惕的现象是“为了隐私保护而隐私保护”。对于这个问题，David Evans有一个特别好的演讲“The Dragon in the Room”<sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">4</a></sup>。大科技公司依靠自己的生态掌握海量的用户数据，近十年来隐私保护法律的推出，从很大程度上确实阻止了第三方公司向这些大科技公司收购用户数据用于盈利的行为。但是法律只限制了这些数据的流通，没有限制数据的<strong>收集</strong><sup id="fnref:5" role="doc-noteref"><a href="#fn:5" class="footnote" rel="footnote">5</a></sup>。这意味着像Google，Apple这些公司成为了整个权力游戏的中心，拥有绝对的话语权。隐私保护技术研究的初衷是：通过隐私保护的这种<strong>手段</strong>，避免公司或者政府，由于拥有大量用户数据，而产生操控用户的可能性。技术只是一种手段，保护人的自治权是目的。但是现在，大科技公司提供高薪吸引隐私保护研究人员，在产品中使用隐私保护技术。这些公司在执法部门面前可以非常自信地说”我们使用了blabla隐私保护技术，遵从了XXX隐私保护法，所以我们的数据收集是合法的，收集这些数据对于我们产品性能提升是非常重要的blabla“。就像之前提到的，信息差产生权力差，拥有信息就拥有权力，个人用户相对于公司来讲，在本就处于权力劣势，在交出个人数据的情况下，这种劣势被进一步巩固。现有的隐私保护法律在这种情况下也相当于是失去了牙齿，没有真正能够保护到用户。科技公司甚至可以做到仅仅通过玩一些文字游戏，就完全保留主导权。而隐私保护研究在偏离了“保护人的自治权”这个本质以后，反而变成了握在敌人手里的一把枪。</p>
+
+<p>是什么(what)、为什么(why)、怎么办(how)，这三个问题里，工程师终究只能回答第一个，也是最容易的一个。作为研究者，当我们过于关注”How can I do this?”而忽略掉”Why am I doing this?”的时候，是不是已经意味着失掉了一些阵地？</p>
+
+<hr />
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>即便是像Diffi-Hellman Key Exchange这样最接近“凭空生产秘密”的算法，它也必须基于一个足够好的randomness generator。一方面这个randomness generator可以被看作是“已有的秘密”或者“已有的权力”，另一方面也可以将它看作是“对随机性的保护”。两个方面实际上都不能算是“凭空生产秘密”。 <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p><a href="https://eprint.iacr.org/2015/1162.pdf">The Moral Character of Cryptographic Work</a>，不愿意读文章的话，这个<a href="https://youtu.be/1ReIILmcLpk">演讲视频</a>也不错。 <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>隐私的定义当然不止一种，我目前最喜欢的是<a href="https://crypto.stanford.edu/portia/papers/RevnissenbaumDTP31.pdf">“Privacy as Contextual Integrity”, Helen Nissenbaum (2004)</a> <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:4" role="doc-endnote">
+      <p><a href="https://uvasrg.github.io/google-federated-privacy-2019-the-dragon-in-the-room/">The Dragon in the Room, David Evans (2019)</a> <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:5" role="doc-endnote">
+      <p>GDPR之类的法律确实试图限制数据收集，大概意思是“如果这个数据对于产品功能不是必要的，就不能收集”，但实际上，科技公司对什么是对于产品功能是“必要的”有很灵活的解释权，毕竟这个世界上最贵的律师怕不是都被它们雇走了。 <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name></name></author><category term="storytelling" /><category term="privacy" /><category term="philosophy" /><summary type="html"><![CDATA[是什么(what)、为什么(why)、怎么办(how)，这三个问题里，工程师只能回答第一个。]]></summary></entry><entry><title type="html">当我跑步的时候我在想什么</title><link href="http://localhost:4000/blog/2022/feminismmaxism/" rel="alternate" type="text/html" title="当我跑步的时候我在想什么" /><published>2022-08-05T00:00:00+02:00</published><updated>2022-08-05T00:00:00+02:00</updated><id>http://localhost:4000/blog/2022/feminismmaxism</id><content type="html" xml:base="http://localhost:4000/blog/2022/feminismmaxism/"><![CDATA[<p><em>早上跑步的时候脑子是最自由的，除了冒出“这家的咖啡机真好看以后我也要买一台”和“旁边骑车去上班飞驰而过的大姐身上喷的香水也太好闻了”这类想法之外，偶尔也会想到点别的。那天突然想起大概一年以前看到过一篇文章<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>，主要写的是从女性主义视角看待阶级和工作问题，依稀记得其中对于马克思主义和女性主义的交集的讨论挺有意思的。为了提高易读性，一些名词我自己随便做了翻译，可能有不准确的地方，凑活看吧谢谢各位。</em></p>
 
 <h4 id="马克思主义中的女性解放">马克思主义中的女性解放</h4>
 <p>马克思主义中“以人为中心”的思想本身就把女性群体包含在讨论范围内。它将社会中对于女性的剥削至少推回到私有财产产生时期：生产资料的富余衍生出“分配”的需求，而分配需要一个社会单位来作为客体。原子家庭（父母子女）作为这样的一个客体承接被分配的生产资料，也就导致私有财产的产生。这个过程将女性作为家庭“照护者”的角色加强，与其相对的男性“挣面包的人”（breadwinner）在本就拥有更多生产资料的情况下获得更多的财富积累。这一表面上看起来按劳分配的过程忽略了家庭内部劳动成果的认可，举例来讲就是家庭“照护者”提供情感支持和家务劳动并不会“按小时计费”，就像奥运会上没有“跳皮筋项目”<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>。</p>
