@@ -1,5 +1,67 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en, cn"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en, cn" /><updated>2023-02-11T23:25:55+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">blank</title><subtitle>Somehow I start writing. 
-</subtitle><entry><title type="html">安全和隐私保护研究中的伦理意涵</title><link href="http://localhost:4000/blog/2023/privacyethics/" rel="alternate" type="text/html" title="安全和隐私保护研究中的伦理意涵" /><published>2023-02-10T00:00:00+01:00</published><updated>2023-02-10T00:00:00+01:00</updated><id>http://localhost:4000/blog/2023/privacyethics</id><content type="html" xml:base="http://localhost:4000/blog/2023/privacyethics/"><![CDATA[<p>刚查了一下，cybersecurity在中文里的翻译还依然是“网络安全”，“网络空间安全”，“网络信息安全”。但实际上这些翻译都不是很准确…cybersecurity”是什么“解释不明白，造成的后果就是跟老何打电话的时候直接问我：你是不是在瑞士当间谍？</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en, cn"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en, cn" /><updated>2023-05-06T00:52:53+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">blank</title><subtitle>Somehow I start writing. 
+</subtitle><entry><title type="html">吵好Quota这个架</title><link href="http://localhost:4000/blog/2023/quota/" rel="alternate" type="text/html" title="吵好Quota这个架" /><published>2023-05-05T00:00:00+02:00</published><updated>2023-05-05T00:00:00+02:00</updated><id>http://localhost:4000/blog/2023/quota</id><content type="html" xml:base="http://localhost:4000/blog/2023/quota/"><![CDATA[<p>我特别喜欢去办公室工作，最重要的一个原因是组里一起吃午饭太有意思了。有的时候大家聊最近读的让人迷惑的“狗屁”文章(bullshit paper)<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>，有的时候聊最近看的爽剧<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>，有的时候我们吵架。今天我们吵的是近些年来经常在女性主义讨论中出现的问题：我们应不应该设定Quota(配额)？</p>
+
+<hr />
+
+<h4 id="quota"><strong>Quota</strong></h4>
+<p>在女性主义实践方式的讨论中，“设定配额”指的是在一个组织内部涉及选举，尤其是领导层岗位的选举时，强制规定女性不得少于一定比例。
+这个想法最初提出来，是希望能够有一种足够直接的方式，推动解决决策层性别比例失衡的问题，进而促进解决更广泛的性别不平等。</p>
+
+<p>可以想象，“要不要强制设定配额”是最近一些年争论比较多的问题，有一些反对声音甚至(看似)是从女性主义内部发出的。
+有意思的是，如果仔细想想，其实一些逻辑并不成立。</p>
+
+<h4 id="the-repeating-forever-arguments"><strong>The Repeating-forever Arguments</strong></h4>
+<p><em>这些话我听过太多遍了，那咱今天来好好掰扯掰扯。</em></p>
+
+<blockquote>
+1. 设定配额会降低决策层的平均水平，因为我们会将那些能力不够的人选上来。
+</blockquote>
+
+<p>I do not see the logic. 首先，这个观点的前半句就是站不住脚的，设定配额并不意味着拉低决策水平，它只是一种对现有偏见的制衡。
+研究表明，当我们在提拔候选人时，我们会自然地倾向于选择与我们相似的人。这种倾向也导致了我们常常提到的“玻璃天花板”现象。
+也就是说，当候选人的硬实力没有显著差别时，决策层(of course,绝大多数是男性)会倾向于选择与自己相似的人(i.e.,男性)。
+也就是说历史源远流长的父权制，确实会导致很多女性候选人仅仅是因为“<strong>不同</strong>”被淘汰，而不是因为能力不足。
+举个例子来讲，我爱跳舞，我爱死跳舞了，如果我是公司老板，我在选择我的经理的时候，会下意识地偏向那个会跳舞的候选人，即便那个打篮球的跟这个会跳舞的能力上没有差别。
+所以，这个观点的后半句也不成立，因为引入配额的最初原因本就不是因为女性候选人能力不足我们一定非要拔苗助长，而是因为在很多领域我们已经有足够多的能力充足的女性，但是因为系统性偏见她们总是没有被选择走上本就百分百称职的位置<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>。</p>
+
+<p>更深远的，决策层的长久同质化也会导致我们倾向于一种同质化的选择标准，即便这些标准可能是不全面的或者有失公允的。这就回到了我们之前提到过的“为什么奥运会没有跳皮筋项目”，即便跳皮筋从灵活性和体能要求上可能并不输给其他奥运项目。如果这个例子不容易放在这个讨论的语境下理解，那我们可以用另一个例子来说明：研究表明，当一个求职广告中包含”top”, “best candidate”之类的词汇时，与另一个资质要求完全相同但没有这些词汇的求职广告相比，女性求职者比例会显著下降，也就是说当一些职位画像的语言描述与传统男性气质契合时，仅仅几个词汇就可以将女性求职者禁锢起来，可能在她们自己也没意识到的情况下。</p>
+
+<p>还有另一个研究，跟这个讨论没什么关系：男性求职者平均会在自己满足80%的职位要求时就选择申请，而女性的平均值在100%-120%。所以“普信男”的那个梗其实可能也没有<strong>挑起性别对立</strong>。</p>
+
+<blockquote>
+2. 设定配额后被选入决策层的女性，会被人认为是因为有配额而不是因为她们的能力坐上这个位置的，这反而会增加人们对这些女性的质疑。
+</blockquote>
+
+<p>I do not see the logic. 首先，哪些持有“认为是因为有配额而不是因为她们的能力坐上这个位置的”观点的人本身就对引入配额制的本质原因和社会基础并不了解，这个我们在上一个问题里说过了。因此，由于持有这种观点错误观点而产生的质疑本身就是站不住脚的。所以，捋顺逻辑的话就是：那些会质疑女性领导者的人应该自我反思为什么会忽略结构性的不公，而下意识地认为因为配额被选上的领导职位的女性是不称职的。</p>
+
+<blockquote>
+3. 承认吧，你们女的就是想要更多的特权。
+</blockquote>
+
+<p>I do not see the logic. 配额制只是一个过渡阶段的手段，设定某种强制标准并不是最终的目的，没有人希望配额制称为一种持续性措施。设定配额只能说是一种无奈之举，希望通过实质性的、小步一小步的推动，在现有的社会结构中注入一些不一样的、同样值得被听见的声音。已经实行配额制的一些案例，已经显示出积极的效果，而对于多样性的追求也不是只限于男性、女性这种讨论。</p>
+
+<p>从上世纪90年代女性主义进入第三次浪潮算起，我们现在也已经走过了三个年代。当性别平等确实成为社会普遍共识三十年之后，我们依然需要面对的现实是：大多数高级决策层的性别比例依然失衡，反堕胎法案威胁到女性对于自己的身体和生命的决定权，ETHZ还在进行有明确逻辑漏洞的关于设定配额制的讨论，而我的女同事依然会被男同事当着面讥讽“EPFL就是因为政治正确才招你进来的”。我实在不知道“想要更多特权”这个说法是从哪来的。</p>
+
+<h4 id="事儿说明白再吵架"><strong>事儿说明白再吵架</strong></h4>
+<p>以上三个事儿咱们有共识的话，那接下来就可以开始吵架了。基本上我们可以顺着“配额制是不是最好的办法，还有没有其他更好的办法”，“怎样制定适合各个情况的配额”，和“性别问题是不是现在社会亟待解决的问题，还是我们在有限的资源下只能专注于其他一些更急切的问题”这些方向开始吵架。说实话男性、女性这种性别框架下的讨论，我不是特别喜欢，因为性别是一种社会构建，但是这个事儿太大了得单说。不过必须承认，从社会现实来看，性别划分依然存在相当长一段时间，所以该吵架的时候就上。</p>
+
+<p>吵架是好的，但咱把事儿先说明白，再吵，咋吵都行。</p>
+
+<hr />
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>这里没有骂人的意思，就是指那种为了发文章而发的那种文章, basically, it is a solution searching for a problem. You see what I mean, right? Other than bullshit, what else we can say ;) <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>推荐个2021年的片子<a href="https://en.wikipedia.org/wiki/The_Worst_Person_in_the_World_(film)">The Worst Person in the World</a>，不是爽剧，但是我觉得挺好看的，非常Scandinavian <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>有的时候也叫“系统性偏好”，但是我觉得咱就别遮遮掩掩的了吧，偏见就偏见好吧。咱们诚实一点。 <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name></name></author><category term="WanderingThoughts" /><category term="feminism" /><category term="philosophy" /><summary type="html"><![CDATA[吵架是好的，但咱把逻辑捋明白，再开始吵行不行？]]></summary></entry><entry><title type="html">安全和隐私保护研究中的伦理意涵</title><link href="http://localhost:4000/blog/2023/privacyethics/" rel="alternate" type="text/html" title="安全和隐私保护研究中的伦理意涵" /><published>2023-02-10T00:00:00+01:00</published><updated>2023-02-10T00:00:00+01:00</updated><id>http://localhost:4000/blog/2023/privacyethics</id><content type="html" xml:base="http://localhost:4000/blog/2023/privacyethics/"><![CDATA[<p>刚查了一下，cybersecurity在中文里的翻译还依然是“网络安全”，“网络空间安全”，“网络信息安全”。但实际上这些翻译都不是很准确…cybersecurity”是什么“解释不明白，造成的后果就是跟老何打电话的时候直接问我：你是不是在瑞士当间谍？</p>
 
 <p>我：……</p>
 
@@ -67,7 +129,7 @@
       <p>GDPR之类的法律确实试图限制数据收集，大概意思是“如果这个数据对于产品功能不是必要的，就不能收集”，但实际上，科技公司对什么是对于产品功能是“必要的”有很灵活的解释权，毕竟这个世界上最贵的律师怕不是都被它们雇走了。 <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name></name></author><category term="storytelling" /><category term="privacy" /><category term="philosophy" /><summary type="html"><![CDATA[是什么(what)、为什么(why)、怎么办(how)，这三个问题里，工程师只能回答第一个。]]></summary></entry><entry><title type="html">当我跑步的时候我在想什么</title><link href="http://localhost:4000/blog/2022/feminismmaxism/" rel="alternate" type="text/html" title="当我跑步的时候我在想什么" /><published>2022-08-05T00:00:00+02:00</published><updated>2022-08-05T00:00:00+02:00</updated><id>http://localhost:4000/blog/2022/feminismmaxism</id><content type="html" xml:base="http://localhost:4000/blog/2022/feminismmaxism/"><![CDATA[<p><em>早上跑步的时候脑子是最自由的，除了冒出“这家的咖啡机真好看以后我也要买一台”和“旁边骑车去上班飞驰而过的大姐身上喷的香水也太好闻了”这类想法之外，偶尔也会想到点别的。那天突然想起大概一年以前看到过一篇文章<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>，主要写的是从女性主义视角看待阶级和工作问题，依稀记得其中对于马克思主义和女性主义的交集的讨论挺有意思的。为了提高易读性，一些名词我自己随便做了翻译，可能有不准确的地方，凑活看吧谢谢各位。</em></p>
+</div>]]></content><author><name></name></author><category term="WanderingThoughts" /><category term="privacy" /><category term="philosophy" /><summary type="html"><![CDATA[是什么(what)、为什么(why)、怎么办(how)，这三个问题里，工程师只能回答第一个。]]></summary></entry><entry><title type="html">当我跑步的时候我在想什么</title><link href="http://localhost:4000/blog/2022/feminismmaxism/" rel="alternate" type="text/html" title="当我跑步的时候我在想什么" /><published>2022-08-05T00:00:00+02:00</published><updated>2022-08-05T00:00:00+02:00</updated><id>http://localhost:4000/blog/2022/feminismmaxism</id><content type="html" xml:base="http://localhost:4000/blog/2022/feminismmaxism/"><![CDATA[<p><em>早上跑步的时候脑子是最自由的，除了冒出“这家的咖啡机真好看以后我也要买一台”和“旁边骑车去上班飞驰而过的大姐身上喷的香水也太好闻了”这类想法之外，偶尔也会想到点别的。那天突然想起大概一年以前看到过一篇文章<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>，主要写的是从女性主义视角看待阶级和工作问题，依稀记得其中对于马克思主义和女性主义的交集的讨论挺有意思的。为了提高易读性，一些名词我自己随便做了翻译，可能有不准确的地方，凑活看吧谢谢各位。</em></p>
 
 <h4 id="马克思主义中的女性解放">马克思主义中的女性解放</h4>
 <p>马克思主义中“以人为中心”的思想本身就把女性群体包含在讨论范围内。它将社会中对于女性的剥削至少推回到私有财产产生时期：生产资料的富余衍生出“分配”的需求，而分配需要一个社会单位来作为客体。原子家庭（父母子女）作为这样的一个客体承接被分配的生产资料，也就导致私有财产的产生。这个过程将女性作为家庭“照护者”的角色加强，与其相对的男性“挣面包的人”（breadwinner）在本就拥有更多生产资料的情况下获得更多的财富积累。这一表面上看起来按劳分配的过程忽略了家庭内部劳动成果的认可，举例来讲就是家庭“照护者”提供情感支持和家务劳动并不会“按小时计费”，就像奥运会上没有“跳皮筋项目”<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>。</p>
