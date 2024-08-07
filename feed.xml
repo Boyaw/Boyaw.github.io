@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en, cn, fr"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en, cn, fr" /><updated>2024-06-03T11:35:04+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">blank</title><subtitle>Somehow I start writing. 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en, cn, fr"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en, cn, fr" /><updated>2024-08-07T08:47:27+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">blank</title><subtitle>Somehow I start writing. 
 </subtitle><entry><title type="html">还是，不能算了</title><link href="http://localhost:4000/blog/2023/readwrite/" rel="alternate" type="text/html" title="还是，不能算了" /><published>2023-12-31T00:00:00+01:00</published><updated>2023-12-31T00:00:00+01:00</updated><id>http://localhost:4000/blog/2023/readwrite</id><content type="html" xml:base="http://localhost:4000/blog/2023/readwrite/"><![CDATA[<p>圣诞节以前学院博士群里有人分享一个做年终总结的记事本<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>，设计得很简洁。
 看到这条消息的时候，我突然间又想起来好久没有写东西了…
 其实也不是什么都没写，今年有好几次我都提笔写了草稿，但是要么没写完，要么写完了觉得“哎呀算了”，就都没有发出来。
@@ -484,7 +484,7 @@
       <p>但是不得不说往往这会加强这个女性身上的厌女情绪. <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name></name></author><category term="WanderingThoughts" /><category term="philosophy" /><summary type="html"><![CDATA[如果阶级和性别的本质都是权利关系，那么它们是平行的，还是垂直的？]]></summary></entry><entry><title type="html">The Drama of My PhD Application - Just Like a Marriage</title><link href="http://localhost:4000/blog/2022/phdapp/" rel="alternate" type="text/html" title="The Drama of My PhD Application - Just Like a Marriage" /><published>2022-06-30T00:00:00+02:00</published><updated>2022-06-30T00:00:00+02:00</updated><id>http://localhost:4000/blog/2022/phdapp</id><content type="html" xml:base="http://localhost:4000/blog/2022/phdapp/"><![CDATA[<p>There is this thing: I first sign some documents, then I will be in a long-term commitment. At the beginning, I do not know where this thing will take me in the future, how long it will last exactly, or what will be the ending.</p>
+</div>]]></content><author><name></name></author><category term="WanderingThoughts" /><category term="philosophy" /><summary type="html"><![CDATA[如果阶级和性别的本质都是权利关系，那么它们是平行的，还是垂直的？]]></summary></entry><entry><title type="html">The Drama of PhD Application - Just Like a Marriage</title><link href="http://localhost:4000/blog/2022/phdapp/" rel="alternate" type="text/html" title="The Drama of PhD Application - Just Like a Marriage" /><published>2022-06-30T00:00:00+02:00</published><updated>2022-06-30T00:00:00+02:00</updated><id>http://localhost:4000/blog/2022/phdapp</id><content type="html" xml:base="http://localhost:4000/blog/2022/phdapp/"><![CDATA[<p>There is this thing: I first sign some documents, then I will be in a long-term commitment. At the beginning, I do not know where this thing will take me in the future, how long it will last exactly, or what will be the ending.</p>
 
 <p><strong>Yes, this thing can be my marriage, or… my PhD ;)</strong></p>
 
@@ -515,7 +515,7 @@ Cybersecurity的项目不多，主要对比一下CISPA、ETHZ、EPFL这三个在
 
 <p>估计各位透过屏幕都能感受到我当时的绝望。这几个方向我都上过至少一门课，也不是说有多不喜欢，但就是非常明确：<strong>绝对不是爱</strong>。就是学也能凑活学，但是也学得不咋好，没有passion。举个例子，我第二个学期做一个跟network相关的semester project，试了各种各样的方法，一直没有做出很好的结果。那个感觉就像是数学里有一些非常美的theorem，不知真伪。因为它太美了，如果能证明是真的，那就可以衍生出很多很漂亮的结果。但是尝试用各种方法证明，都行不通，最后特别失望得发现这个theorem，尽管特别特别美，可能真的就是错的。一开始越觉得它美，投入得越多，最后就会越难过。那段时间虽然表面上没事，<strong>但是心里其实天天都在哭</strong>，每天跑步的时候我最开心，因为觉得流了很多汗就像把心里的泪都哭出来了，能轻快一点点。</p>
 
-<p>每个学期开始我都约着跟tutor V见个面聊选课的建议什么的，我跟V描述心里的挣扎：要是选通信方面的课，毕竟之前学过，可能更轻松也更舒服一点，要是最后决定走这个老路，继续读或者工作都会比较稳；可又有点不甘心，总觉得有点凑活的意思，没有爱和passion，凑活着做一辈子真的会很痛苦吧，还是想试试其他方向，但是学得很辛苦一直感觉在撞墙。V鼓励我：</p>
+<p>每个学期开始我都约着跟tutor A见个面聊选课的建议什么的，我跟A描述心里的挣扎：要是选通信方面的课，毕竟之前学过，可能更轻松也更舒服一点，要是最后决定走这个老路，继续读或者工作都会比较稳；可又有点不甘心，总觉得有点凑活的意思，没有love&amp;passion，凑活着做一辈子真的会很痛苦吧，还是想试试其他方向，但是学得很辛苦一直感觉在撞墙。A鼓励我：</p>
 <blockquote>
     As a professor, I don't really care about the scores when selecting my PhD students. Of course, it is always good to have a beautiful transcript. But no need to stay in your comfort zone just for that. Give yourself one more semester, take your time and let's see what will happen. 
 </blockquote>
@@ -565,7 +565,7 @@ Cybersecurity的项目不多，主要对比一下CISPA、ETHZ、EPFL这三个在
 <blockquote>
     Choices always hit us hard at the most unexpected moments. Sometimes, there is no "why" but "what". 
 </blockquote>
-<p>三分天注定绝对是说少了，phd application这事儿，五五开吧我觉得：一半靠努力，一半靠运气。能不能开始读是一件事，能不能活着读下来是另一件事，读下来以后还能不能保持热爱，那可真是完全不相关的另另一件事。We will never feel “ready” for any of the life choice at that specific moment, still, life goes on.</p>
+<p>三分天注定绝对是说少了，phd application这事儿，五五开吧我觉得：一半靠努力，一半靠运气。能不能开始读是一件事，能不能活着读下来是另一件事，读下来以后还能不能保持热爱，那可真是完全不相关的另另一件事。We will never feel ready for any of the life choice at that specific moment, still, life goes on.</p>
 
 <blockquote>
     Projects start and end, jobs come and go, people stay, always. 
@@ -574,207 +574,11 @@ Cybersecurity的项目不多，主要对比一下CISPA、ETHZ、EPFL这三个在
 
 <p><strong>People matter the most.</strong> It is a privilege to do the things we love with people we like.</p>
 
-<p>有一回跟T聊天，我问她: How did you built the support net during you PhD? The PhD journey seems to be almost impossible if people go through alone.</p>
+<p>有一回跟B聊天，我问B: How did you built the support net during you PhD? The PhD journey seems to be almost impossible if people go through alone.</p>
 
-<p>她跟我说: Our job is hard, and not everyone understands why it is so hard. People around are just as smart as we are and work as hard as we do, so <strong>the feeling “I am not that good” will always follow us</strong>. 
-The opinions from our important ones matter: our families, friends, partners… Find the people who can understand why you are doing what you value, they are the ones that will support you going through the darkest moments.</p>
-
-<hr />
-
-<p><em>Special thanks to: M for the encouragement and for saving me twice during my emotional breakdown, N for the relentless support through my application, Z&amp;Q for discussions and supports, C&amp;W for helping me revising the writing things, T&amp;M for the sincere advice, bro K for the calls, 老汪老何 for all the love along the way, as always.</em></p>]]></content><author><name></name></author><category term="storytelling" /><category term="phd" /><summary type="html"><![CDATA[也只能说是人生如戏…]]></summary></entry><entry><title type="html">Let’s Talk It Through - Signal &amp;gt; Telegram &amp;gt;= WhatsApp &amp;gt; WeChat</title><link href="http://localhost:4000/blog/2022/wechat/" rel="alternate" type="text/html" title="Let’s Talk It Through - Signal &amp;gt; Telegram &amp;gt;= WhatsApp &amp;gt; WeChat" /><published>2022-06-21T00:00:00+02:00</published><updated>2022-06-21T00:00:00+02:00</updated><id>http://localhost:4000/blog/2022/wechat</id><content type="html" xml:base="http://localhost:4000/blog/2022/wechat/"><![CDATA[<p>我对Secure Messaging一直还是挺感兴趣的，一年之前还在找thesis的时候跟人讨论过拿WeChat做的可能性，当时分析了一下觉得 it will be really hard to define a project that is within the scope of a master’s thesis, at the same time, juicy enough. 不过正好又想起来这个事，读了新的paper，有了新的讨论，那就趁热总结一下，说不定以后用得上。如果各位觉得这个文章太长了：</p>
-
-<p><strong>TL;DR Just use Signal.</strong> Please just do. Telegram is broken. WhatsApp is suspicious. WeChat has a fundamental flaw in design.</p>
+<p>B跟我说: Our job is hard, and not everyone understands why it is so hard. People around are just as smart as we are and work as hard as we do, so <strong>the feeling “I am not that good” will always follow us</strong>. 
+The opinions from our important ones matter. Find the people who can understand why you are doing what you are doing, they are the ones that will support you going through the darkest moments.</p>
 
 <hr />
 
-<p><em>After 30 years, we finally figured out how to do secure messaging over a network. I said “figured out how”, I didn’t say “managed”, so you know what I mean. <strong>In short, the story goes like this: Researchers break, companies ignore, hackers hahaha</strong> ;)</em></p>
-
-<h4 id="telegram-is-broken"><strong>Telegram Is Broken</strong></h4>
-<p>去年就知道X在做messaging app方面的研究，但是当时还在ethical disclosure的阶段，所以没有办法讨论具体细节，最近<a href="https://mtpsym.github.io/paper.pdf">paper</a>终于出来了。Lessons I learned:</p>
-
-<blockquote>
-    能用well-established protocol就别自己写，能用Signal Protocol就不要硬搞MTProto 2.0，搞了MTProto 2.0没有formal proof就不要嘴硬说secure了，咱们都没有自己以为的那么聪明。
-</blockquote>
-
-<p>谈Telegram的问题得从行业标杆Signal说起。大家都说Signal这个Messaging App安全，其实指的是它使用的<a href="https://en.wikipedia.org/wiki/Signal_Protocol#History">Signal Protocol</a>。这个Signal Protocol是专门为端到端加密通信设计的，主要优势是开源：谁都可以挑毛病，research community作为一个整体可以监督整个设计的安全性，也可以直接证明安全性。In short, the trust is from transparency.</p>
-
-<p>Signal Protocol做的这么好，还有开源的library，大家就用就完事了，end of the story。但是Telegram somehow decided to develop their own protocol, called MTProto 2.0. 从头开始设计protocol，还要求强security，这事儿挺难的，就像编舞一样：没人告诉你什么时候该放什么动作，什么时候该留白，什么时候该把情绪顶上去，只能是跳完一遍才知道，好，或者，烂。MTProto 2.0在设计的时候有一些design decision做的不好，说实话我觉得也不是故意留什么漏洞，应该就是没太想好吧可能，真正做过protocol design的都知道，这真不是个容易的活儿。但是security是挺残酷的，差一点儿也不行。四个漏洞里边第一个最practical，attacker is able to reorder messages；另外三个更偏理论。最后澄清一下关于Telegram的两个常见迷思：</p>
-<ul>
-    <li>End-to-end encryption is <b>NOT</b> activated by default. 就是说咱们只能相信Telegram server不会看用户消息，如果它想看的话，是可以看的。</li>
-    <li>End-to-end encryption is not available for group chat. 群消息是没有端到端加密的，Signal是有的。</li>
-</ul>
-
-<p>Telegram在收到ethical disclosure之后给的回复还挺有意思的<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>。总的来讲基本就是“我们收到了你们的报告，我们知道了。但是除非有直接造成crash的那种bug，我们<strong>不会立即</strong>打补丁。了解了这些安全性问题之后，我们<strong>无法保证</strong>我们修复这些漏洞的具体时间，但是我们会在下一次例行更新的时候修补的！”</p>
-
-<p>其实也可以理解，这么大一个产品，修复安全性问题是挺麻烦的，而且用户只要设置的严格一点这个漏洞是不会影响安全性的。But… Let’s just use Signal ;)</p>
-
-<h4 id="whatsapp-is-suspicious"><strong>WhatsApp Is Suspicious</strong></h4>
-<p>WhatsApp是Meta（也就是FaceBook）旗下的，这一下子直接印象分减没了。但是不得不说同伴压力太大了，也只能是能不用就别用了。<a href="https://en.wikipedia.org/wiki/WhatsApp#End-to-end_encryption">2014年以后WhatsApp开始在自己的客户端上实现Signal Protocol</a>，但是因为它一直也没开源所以也没法验证是不是真的用了，且用对了。我个人的观点是：If you trust FaceBook, you can trust WhatsApp for end-to-end encryption. 反正我是不相信FB。So… Let’s just use Signal ;)</p>
-
-<h4 id="关于微信"><strong>关于微信</strong></h4>
-<p>那有意思的事儿可真是太多了，咱们挑两个简单说说。</p>
-
-<blockquote>
-    微信真没有端到端加密（end-to-end encryption）。
-</blockquote>
-
-<p>这虽然不是什么新鲜事儿，但是该说还是得实话实说。微信的整个通信协议采用的是client-server设计，也就是说server是永远online的，client可以上线下线。client-server之间的加密通信使用了一个叫mmtls的协议<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>。mmtls是基于TLS1.3设计的，从公开的文档来看基本上是一摸一样的，除了去掉了optional client authentication之外，没有什么实质性的变化。举例来讲clientA跟clientB通信，clientA跟server的通信是加密的，server很clientB的通信是加密的，但是消息对server是可见的。从架构上来讲这个client-server的设计选择就可以比较容易地在server上设置敏感词筛查，或者调查取证（law-enforcement）。</p>
-
-<blockquote>
-    微信（WeiXin）和WeChat（微信海外版）的用户隐私保护是不一样的。
-</blockquote>
-
-<p>微信用户隐私保护指引中第一章第29条明确提到“我们<strong>不会收集</strong>你的聊天记录。你在微信中的聊天记录会存储在你的终端设备，你可以选择自行备份、删除或在不同设备中转移”。但是说是这么说，怎么证明server端没存，这就很难证明了。同时第一章第32条也写了“另外，根据相关法律法规及国家标准，以下情形中，我们可能会处理你的相关个人信息而<strong>无需征求</strong>你的授权同意…”。怎么同时理解这两条就比较矛盾了，如果根据调查需要，需要获取犯罪嫌疑人的微信通信记录，那是<strong>存还是不存</strong>，存了的话<strong>算不算</strong>是触犯个人隐私保护法，触犯相关法律收集的证据<strong>能不能</strong>作为庭上证据。我不是学法的我不懂，各位有了解这个方面的希望能给我讲讲，我还挺想知道的。</p>
-
-<p>WeChat的用户隐私保护跟微信是不一样的<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>，<strong>用词</strong>和描述的<strong>具体程度</strong>都不太一样，大概就是“我们承诺不会永久保留用户的消息记录，文字消息超过72小时、图片语音录像文件超过120小时，服务器上的记录会永久删除”。我不知道国内的用户隐私保护指引为啥没写这个，是没有这个超时删除的机制，还是只是没写。</p>
-
-<h4 id="wandering-thoughts">Wandering Thoughts</h4>
-
-<p>“用户隐私和社会正义不可兼得”，这个论调已经存在很久了，但是讨论了这么久也没人能说明白。从western democracy的context下，不管是GDPR还是最近的Digital Market Act都可以表明，privacy wins。我们当然可以说context不一样，culture不一样，什么什么都不一样，but in my opinion, this is not the right way to address the issue.</p>
-
-<p>We need great social scientists. 咱们还是得直面淋漓的鲜血，这事儿一样就是一样，不一样就是不一样，just conduct a scientific research and show me the result. 没有系统性地研究就直接说“context不一样”，这话说出来听着就心虚，其实想想也没啥可害怕的。If we made a mistake, we fix it, then we move on. It is never too late to put everything under the sunlight ;)</p>
-
-<hr />
-
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>As is described in the paper “We notified Telegram’s developers about the vulnerabilities that we found in MTProto on 16 April 2021. They acknowledged receipt soon after and the behaviours we describe on 8 June 2021. They awarded a bug bounty for the timing side channel and for the overall analysis. We were informed by the Telegram developers that they do not do security or bugfix releases except for immediate post-release crash fixes. The development team also informed us that they did not wish to issue security advisories at the time of patching nor commit to release dates for specific fixes. As a consequence the fixes were being rolled out as part of regular Telegram updates. The Telegram developers informed us that as of version 7.8.1 for Android, 7.8.3 for iOS and 2.8.8 for Telegram Desktop all vulnerabilities reported here were addressed.” <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:2" role="doc-endnote">
-      <p>https://github.com/WeMobileDev/article/blob/master/基于TLS1.3的微信安全通信协议mmtls介绍.md <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:3" role="doc-endnote">
-      <p>We do not permanently retain the content of any messages on our servers whether they are text, audio or rich media files such as photos, videos, or documents, unless you or your recipient saves them as a Favorite, or it is a message the administrator of your group chat added as a Group Notice. Once 72 hours has lapsed since you sent your chat message, or 120 hours for images, audio, videos, and files, WeChat permanently deletes the content of the message on our servers. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name></name></author><category term="ReadingNotes" /><category term="security" /><category term="privacy" /><summary type="html"><![CDATA[但凡是个Messaging App都说自己secure，说是挺容易的，你倒是真干呐]]></summary></entry><entry><title type="html">如果国家卫星系统被入侵</title><link href="http://localhost:4000/blog/2022/cybercompetition/" rel="alternate" type="text/html" title="如果国家卫星系统被入侵" /><published>2022-05-11T00:00:00+02:00</published><updated>2022-05-11T00:00:00+02:00</updated><id>http://localhost:4000/blog/2022/cybercompetition</id><content type="html" xml:base="http://localhost:4000/blog/2022/cybercompetition/"><![CDATA[<p><strong>Disclaimer: All contents are under the Chatham House Rule<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>! All rights are RESERVED! All opinions are MINE!</strong></p>
-
-<p>前一阵子参加了<a href="https://www.gcsp.ch/events/cyber-912-strategy-challenge-2022">Cyber 9/12 Strategy Challenge 2022</a>，这个比赛一共就两天，结束之后睡了三天才活过来。虽然挺累的，但是真的挺好玩的，推荐对cyber policy&amp;strategy感兴趣的朋友参加。这两天帮忙写（贼正经的）参赛总结<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>，回顾了一下整个过程还有挺多有意思的小事儿。今天先写一下关于这个比赛大概的情况，参赛的经历，最后写点儿有意思的事儿。You know, there are so many interesting stories to tell. Have fun reading ;)</p>
-
-<hr />
-
-<h4 id="a-cyber-incident-in-a-fictional-world"><strong>A Cyber Incident in a Fictional World</strong></h4>
-<p><em>We must let the right people do the right thing at the right time without knowing exactly what is “right”.</em></p>
-
-<p>Cyber9/12这个比赛我之前就知道。2020年末刚开始接触security research的时候，参加一个ETH Cyber Group组织的workshop的时候听人说起这个比赛，ETHZ每年都组队参加。当时只知道这是个cyber policy&amp;strategy比赛，具体怎么比也不知道，不过还是挺感兴趣的。但是2020年和2021年的比赛都因为各种各样的不可抗力奇奇怪怪就错过了，就这么着就腾着，一直到今年。本来都觉得肯定没戏了，因为没想到最后一个学期会来洛桑交换做thesis，ETHZ的赛前培训什么的肯定还是在苏黎世，EPFL又从来没听说过有派队参赛。不过幸亏不死心又问了一下，正好今年有三个EPFL的学生也想参加，三缺一！这么好的last-minute chance不安排上简直天理难容，of course, I am in. Let’s go ;)</p>
-
-<p>Cyber9/12有一个赛前初选，之后的正式比赛一共有三轮，<strong>简单点说这个比赛就是一个cyber incident response演习</strong>。比赛一开始它会给一个事件描述，哪个国家在哪个时候出现了一个cyber incident（今年是一个国家的卫星通信系统出现了故障，原因未知，影响了整个国家北部地区的communication、digital payment、mining industry）。为了保证事件尽量接近真实，这个文件也会描述这个国家在历史上跟周围国家的地缘政治关系（刚刚从另一个国家独立出来，并依然存在领土、主权纷争），整个国家的经济情况（发展状况良好，digital payment十分发达，mining industry非常活跃）。</p>
-
-<p>参赛队伍扮演的是cyber policy experts（responsible for cyber incident responses）的角色，每支队伍要根据每一轮的事件描述制定策略，然后在评委面前做一个10分钟presentation，紧接着一个10分钟Q&amp;A。To add more flavor into the game, 每一轮都会有incident escalation（A国家发动了经济制裁，B国家在边境部署了军队，C国家公开指责这次cyber incident的幕后推手是XXX），参赛队伍需要根据新的情况调整策略，而且每一轮的准备时间越来越短（two weeks for round 1, 12 hours for round 2, <strong>15 minutes for round 3</strong>）。</p>
-
-<p>评委们扮演的是真正的decision maker的角色（feel free to imagine some big names like president, minister, deputy head），也就是说它们会根据presentation对参赛队伍进行提问，要求参赛者解释为什么这个时候做这个事情，有多大把握，有什么风险。评委都是真正在cyber incident response方面干过（this year there are judges from NATO, <a href="https://www.ssi.gouv.fr/en/cybersecurity-in-france/the-national-cybersecurity-agency-of-france/">ANSSI</a>, Swiss Armed Forces, Scottish Government, National Cyber Security Center CH, <a href="https://en.wikipedia.org/wiki/Europol">Europol</a>, etc. you can check the full list <a href="https://www.gcsp.ch/global-insights/team-havels-velvet-underground-jagiellonian-university-krakow-wins-8th-european?utm_source=email%20after&amp;utm_medium=email&amp;utm_campaign=winners%20cyber%209/12%202022">here</a>），所以它们提出的问题基本就是真实情况下在汇报的时候会被问到的。这个比赛的组织方partner有：<a href="https://en.wikipedia.org/wiki/Atlantic_Council">Atlantic Council</a>，<a href="https://en.wikipedia.org/wiki/United_States_Department_of_State">United States Department of State</a>，<a href="https://en.wikipedia.org/wiki/Federal_Department_of_Foreign_Affairs">Swiss Federal Department of Foreign Affairs</a>，so you can have a feeling on who might be interested in such competitions ;)</p>
-
-<h4 id="the-game-is-on"><strong>The Game is ON</strong></h4>
-<p><em>大实话真的，老年人作息的话还是不要搞cyber incident response。</em></p>
-
-<p>这个比赛的workload还是挺大的，主观感觉备赛期差不多是4 ECTS credits，参赛那一个礼拜基本full-time。参加比赛以前我们四个参加了ETH Cyber Group组织的、为期两个月的培训。虽然我们都算是学cybersecurity的，但是都是做技术的security engineers。<strong>Cyber incident response is never only about technology.</strong> 所以我们四个在两个月里要速成international law，cybersecurity regulation，political science，economics… 因为要学的东西太多了，只能是一个人负责一部分，这次我主要负责欧盟（European Union）方面的东西：搞清各个部门的职责分工，权力关系，能力范围，反应时间；安全事务要找谁，经济制裁要找谁，外交沟通要找谁，军事协调要找谁，技术合作要找谁；什么情况下可以把事态控制在某个国家内部，什么情况下要通报EU，什么情况下要寻求NATO的协助。</p>
-
-<p>Cyber9/12这个比赛每年都在evolve。从初选就能看出来，今年ETHZ和EPFL一共出了四个队，结果初选就不知道为什么刷掉了两个，这个情况在往年是从没有出现过的（2021年ETHZ出了四个队全部通过初选）。初选之后的正赛一共三轮：第一轮32进16，第二轮16进4，最后决赛轮前四的队伍会再次排名。第一轮的赛题发下来的时候所有人都惊了，因为明显能看出来事件描述的精细程度远超往年。有意思的是，虽然它描述了一个半虚拟的世界（捏造了虚拟国家），但是明显能看出来各个方面都在影射真实情况。第一轮近30页的事件描述中夹带的私货有：俄乌战争，中美贸易战，非洲数字支付系统和采矿业发展，中非贸易合作，欧盟内部分歧等等。</p>
-
-<p>这比赛打的挺过瘾的，强度也很大。如果进入到final list，那就做好两天睡三个小时的准备。我们四个本来觉得have fun得了，因为我们的背景实在是太technical了，这种比赛没有优势，但是初选被选上了之后压力就一下上来了，觉得还是得好好比不能太浪，但是心里肯定还是没底。这个比赛绝对是看teamwork，因为最后一轮只有15分钟准备时间，根本没有机会互相沟通，只能是明确分工，快速确定方向，然后就是，相信队友不会搞砸。赛前我们演练过两次，根据各自的特点：一个人负责串联，一个人做immediate policy，一个人做long-term measure，我负责总结和Q&amp;A。之所以是我来做最后这一块，是因为practice run的时候，I somehow can answer all the questions from judges without actually answering any of them, and leave the impression that I have answered them very well. In short, I am good at <strong>bullshitting our way out</strong>. 真正比赛的时候超时会被扣分，所以最后总结要根据队友留的时间快速调整，保证结尾要能强调所提出的策略，并且结束在规定时间内。在之后的Q&amp;A环节，there can always be mean questions from the judges that are real specialists, 我们四个确定的方法是，如果3秒之内没有人回答这个问题，I will always take it and do my magic ;) 这种分工真的是要看每个人的性格，因为在三轮比赛的压力下，nobody can hide its personality, so we must choose the role we are comfortable with.</p>
-
-<p>个人感觉这个比赛运气成分是有的，赛前准备和临场发挥都很重要。我们三轮比赛算是低开高走。第一轮中规中矩，勉强晋级；第二轮发挥得挺好的，但是其他队也都做的非常非常好，出结果的时候是以第四名压线进的finalist；四个工程师能进决赛我们自己也是没想到，所以没什么压力，最后放手一搏反杀了两个队拿到第二。We are so proud of ourselves!</p>
-
-<h4 id="some-random-things"><strong>Some Random Things</strong></h4>
-<p><em>Do not ask me why or how I know these things, I just know ;)</em></p>
-
-<ul>
-    <li>如果各位想知道<b>情报部门的工作真正是什么样的</b>: Mission Impossible is a "<b>no</b>", 007 is a "<b>no-no-no</b>". 有个法国电视剧叫<i>Le Bureau des légendes</i>, that will be the one you would like to watch.</li>
-    <li>虽然瑞士和欧盟之间的肥皂剧还在扯皮，但是ETHZ的Center for Security Studies（CSS）却是世界上研究欧盟安全策略最好的研究中心（可能没有）之一，它们的研究真的是直接对EU regulation产生影响。If you are interested in security policy research, CSS at ETHZ is a good place to go. </li>
-    <li>A cyber incident is not necessarily equal to a cyber crime. 一般来讲每个国家有自己的Computer Emergency Response Team (CERT)专门来处理cyber incident。Cybercop也确实是有的，但是它们只管cyber crime，不帮你修复系统漏洞。</li>
-    <li>确实存在所谓“黑客国家队”，it is actually called <a href="https://en.wikipedia.org/wiki/Advanced_persistent_threat">Advanced Persistent Threat</a> (APT). But things are complicated in this field. 有些人直接受政府雇佣，有些人平时单独行动政府只是“客户”，有些人既是政府雇员也自己接私活。出了个事儿以后很难讲这是政府行动还是个人行动，because they are the kind of people that are not necessarily under anyone's control. They do stuff because they want to. </li>
-    <li>Cyber incident is never only in the cyber space. 军事、政治、经济方方面面都会受影响，“social unrest”往往是最先出现、也最难搞的问题。Re-building the trust is a fine art. When people are panic, we do silly things, and the whole country will suck. </li>
-    <li>International law is almost a joke. I am sorry for such a bold opinion, but... jaaaa, more or less a joke. There is nothing "binding" in this field. As always, money rules the world, it sounds familiar, right? ;) “违反国际法”这件事本身其实没什么实质后果，因为没有机构有能力强制实施国际法。但是做的太出格把大家搞生气了一起开始经济制裁就非常难办了，毕竟没钱是会死人的。</li>
-    <li>基本上每个国家都在cyber space耍流氓。美国的cyber capacity依然是毋庸置疑、难以撼动的，所以美国的cyber strategy改变会影响整个世界。2018年US Department of Defense出了一个<a href="https://media.defense.gov/2018/Sep/18/2002041658/-1/-1/1/CYBER_STRATEGY_SUMMARY_FINAL.PDF">报告</a>，明确写下了两个原则：一是Defend Forward，二是Persistent Engagement。也就是说对于潜在威胁国家长期的cyber space渗透、潜伏是明确公开的cyber defense战略。虽然这个已经是很久以来各个国家心照不宣的策略，但是这是第一次有政府正式文件公开这个事实。So you can see how this world goes crazy, especially in cyber domain...简单来讲，就等于说你还没做坏事，但是我看出来你要做坏事了，那我就先发制人把你干掉。魔幻不？反正我是觉得很魔幻…</li>
-    <li>“性格不合”不仅是谈恋爱时分手的好理由，也可能是瑞士情报部门挂你面试的理由。俄罗斯情报部门确实会给莫斯科国立大学的一些学生打电话，如果真的去这种情报部门工作，出外勤之前要先结婚。搞笑不？反正我第一次听到的时候是大笑了整整一分钟。</li>
-</ul>
-
-<hr />
-
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>Under the Chatham House Rule, anyone in a meeting or a discussion is free to use the information received, but neither the identity nor the affiliation of the speaker(s), nor that of any other participant, may be revealed. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:2" role="doc-endnote">
-      <p>如果各位真的有兴趣参加，想了解怎么准备，we can have a chat over a coffee or some drinks ;) <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name></name></author><category term="storytelling" /><category term="security" /><category term="policy" /><summary type="html"><![CDATA[There is always this myth that a cyber incident is between two groups of hackers who wear old-fashioned hoddies doing crazy stuff. Come on people... it is never like this. NEVER!]]></summary></entry><entry><title type="html">The Good, the Bad and the Ugly</title><link href="http://localhost:4000/blog/2022/icrc/" rel="alternate" type="text/html" title="The Good, the Bad and the Ugly" /><published>2022-05-05T00:00:00+02:00</published><updated>2022-05-05T00:00:00+02:00</updated><id>http://localhost:4000/blog/2022/icrc</id><content type="html" xml:base="http://localhost:4000/blog/2022/icrc/"><![CDATA[<p><em>At the end of this story, money still rules the world. But I have met lovely people who were dancing in shackles. It is not all that bad, it is not.</em></p>
-
-<p>今天刚做完Final Presentation，趁着这股子热乎劲儿，写一下能写的、有意思的事儿。这一周睡得太少了，现在那个累的感觉已经有点上头了，写到哪就算哪吧。</p>
-
-<hr />
-
-<h4 id="blind-love-at-first-sight"><strong>Blind love at first sight</strong></h4>
-<p><em>I just feel the chemistry, so I go with the flow. That is how the story began.</em></p>
-
-<p>做研究真的很像谈恋爱你知道吧…当时来洛桑交换做master thesis是个last-minute decision，准备的时间不多，但幸运的是联系实验室的时候有三个项目还缺人：
-一是给Swiss E-voting做bug bounty，二是给低收入国家做low-cost Covid contact tracing，最后一个就是给国际红十字会（ICRC）做强隐私保护的人道主义援助物资分发（humanitarian aid distribution）系统。</p>
-
-<p>从技术方面来说，反正我都没做过所以肯定都能学到不少东西；从大的研究方向上来讲，都是属于安全这个领域的，so all of them go into the circle called “projects I like”。所以最后选项目这个事就看自己心里的感觉，<strong>after all, you will have a six-month relationship with your thesis ;)</strong></p>
-
-<p>首先被划掉的是Swiss E-voting bug bounty，我之前做过一个semester project算是给Armasuisse打了一点点工，虽然那个项目做的很开心，但是这回thesis就不太想做跟Swiss government有关的项目，想试试别的stakeholder。然后就是在low-cost Covid contact tracing和ICRC aid distribution这两个里面选，这个选择就有点难了。当时疫情还是挺严重的，第几波我已经忘了，反正Covid contact tracing当时算是个“时髦又应景”的项目，但是somehow实验室问我想选哪个的时候我就很想做ICRC aid distribution这个。所以给实验室的邮件我就真的直接这么写了：</p>
-
-<blockquote>
- <i>"I am somehow more into the ICRC project, while both are good matches for my interest. This preference is more like “blind love at first sight” since I don’t have concrete reasoning."</i>
-</blockquote>
-
-<p>后来我也有重新好好想过，为什么当时会想选这个ICRC的项目。
-可能是疫情刚开始的时候，武汉的红十字会出过新闻，我记得当时大家对NGO、人道主义组织啥的骂得挺狠的。
-这个事虽然很久了，但是我心里还是有个想法，想去这种机构内部去真正看看，到底是什么样的，是不是像大家说的贪污腐败没啥好人。
-就像本科的时候去支教，也有人说都是骗人的，但是我就是想去真正做一下看一看所以我就去了。
-当然，这理由很有可能是生搬硬套瞎联系的。You know, we human being are good at <strong>rationalizing every single choice we have made</strong>. 
-反正anyway最后我就真的选了这个ICRC的项目，我心里是做了一下准备的：要是真的体验贼差，就当是跟朋友喝酒能讲的故事算了，大不了以后再也不跟这种人道主义组织做项目了。</p>
-
-<hr />
-
-<h4 id="人道主义组织的困境"><strong>人道主义组织的困境</strong></h4>
-<p><em>They must have efficiency, security, and privacy. Oh, by the way, these three things always bite each other…</em></p>
-
-<p>我之前以为ICRC和UN这种组织都差不多，就每天开开会，喊喊口号，互相骂一骂，然后出一个永远没有人看的会议文件，大家四点钟准时下班回家。
-但是咱得说老实话，ICRC还是做了很多实事的。ICRC的工作主要有两个方面，一是推进人道主义活动和humanitarian regulation/law的发展，二是去实地做人道主义援助（field  operation）。一般上新闻的都是这种实地的援助，比如做疾病防治、救助伤者、分发物资之类的。</p>
-
-<p>这个项目就主要是针对实地的人道主义援助物资发放。我一开始想的是：这有什么难的，不就跟小时候父母工厂里逢年过节给每一户发发米面油啥的差不多，顶多就是谁谁谁非想多领一袋洗衣粉吵吵两句。It turns out, I am too naive. It is never an easy task. Let me tell you why.</p>
-
-<p>首先，这种<strong>人道主义物资分发必须要高效</strong>，简单说就是：<strong>要快</strong>。ICRC很多实地援助都是在极度不稳定、甚至是危险的环境下进行的。
-在这种环境下进行大量物资发放，风险是很高的。比如，在一些地区，如果ICRC的物资发放点长期聚集很多人，这个点被炸弹袭击或者被抢劫的可能性就会很高。
-所以为了减少物资接收者和ICRC工作人员被袭击的风险，一是要减少人员聚集（不要让物资接收者排很长很长很长的队），二是要尽可能缩短整个分发工作的时间。
-但是实际操作起来，这两个要求要达到是很难的，因为发放物资这种工作绝不是把两袋米递过去这么简单。
-如果是ICRC的工作人员人工来执行这个流程，那要先确认面前这个援助者的身份（我叫XXX），在名单上找到这个人的名字（哦，XXX你在名单上，你家有两个孩子，所以这个月给你发两袋米），让物资接收者确认信息和物资（你在这个表格最后一列签个名吧），最后才是把两袋米递过去。
-各位想必都有过在年级排名成绩单上找自己名字的经历，像我这种忽上忽下的就永远不知道是该从后往前看还是从前往后看，每次都要花很久。
-所以“找到物资接收者信息”这一步如果是用纸质的名单人工来做，就会非常低效。
-为了能够提高人道主义物资分发工作的效率，ICRC一直在尝试用电子化的系统来取代现行的“纸笔记录”物资发放系统。</p>
-
-<p>Problem solved, right? Well… NO. Digitalization is powerful, but it is a coin with two sides ;)
-先不说把电子设备部署在一些欠发达地区有多难，咱们先假设可以用电子设备。
-那确实，ctrl+F大家都用过，所以“找名字”这一步是会很快的，但是“个人信息收割”的速度也上来了。
-<strong>There is no “digitalization only for the good”, digitalization is digitalization.</strong> 
-相对于纸笔记录，电子设备的使用大大降低了个人信息收割性盗取的难度。ICRC跟UN不一样，while the United Nations deals with diplomats, <strong>ICRC works for the most vulnerable people</strong>. 物资接收者的个人信息一旦泄漏，后果是不能想象的。比如，一些援助物资分发可能会针对特定族裔（在一些少数族裔节日发放特殊物资补助，帮助他们庆祝自己文化的节日），仅仅是知道“XXX是这次物资发放的物资接收者之一”就会泄漏这个人的信仰、族裔、身份等敏感信息。如果局势动荡，人道主义援助组织在撤出当地时没有办法销毁分发记录，之后进入当地的恐怖组织可以根据这份受援助名单进行针对种族的大规模屠杀。I know this sounds horrible, but it happens in reality. 
-所以这种物资发放系统的整个设计要尽最大可能<strong>防止用户隐私信息泄露</strong>。</p>
-
-<p>只有efficiency和privacy是不够的，<strong>还要有security。</strong>ICRC的所有经费都来源于“志愿捐助”（voluntary donation），所以它还能保持自己的非政府性、中立性、独立性。
-可是这也不代表ICRC可以不看任何人的脸色，有一类人是绝对不能得罪的：donors ;) 
-Humanitarian organizations <strong>must</strong> prove to donors that their money has been <strong>spent wisely in the correct place</strong>, of course. (Did I mention “money rules the world” before? Ahhh, yes, I did.)
-在做这个项目的时候，我才知道像这种主要依靠捐助的组织，不管是ICRC还是其他NGO，都对任何一种系统设计有<strong>accountability</strong>的要求，也就是说这个系统的整个运行过程要auditable，不管是面对内部审查还是外部审查。那审查肯定是要有记录文件，关键是这个文件应该包含什么信息？信息粒度应该是什么样的？（比如，auditor不需要知道XXX在X月X日得到了X袋米和X个婴儿用品，auditor只需要知道这个发放站在一周之内确实向当地人发放了总计500袋米）怎样在提供足够的“可追溯性”的同时保证物资接收者的个人信息不至于泄漏？这些问题就全都取决于system designer对于整个architecture的设计（which is, in my opinion, the most tasty part of this project）。In short, a good aid distribution system needs to provide information that is <strong>just enough</strong> for providing accountability of field operations. <strong>No more. No less.</strong></p>
-
-<hr />
-
-<h4 id="那些好的坏的丑陋的"><strong>那些好的、坏的、丑陋的</strong></h4>
-<p><em>Let me be honest, as always.</em></p>
-
-<p>NGO中的贪污腐败问题已经是老生常谈了，它们自己也知道。
-在援助物资分发系统的设计中，很多的力气都用在防止物资接收者重复领取物资上。（“Hey你昨天不是来领过了吗？你今天怎么又来了，不能再给你了，还有别人要领呢！”）
-但是实际上，最大的漏洞可能还是处在NGO内部，而不是在那些因为饥饿想多领一袋米的人。
-Yes, this is the elephant in room. 但是让我开心的是，这些问题没有像我想象的那么“禁忌”，这些人道主义组织内部的工作人员也会主动去谈论这些问题。At least, they acknowledge the elephant ;)</p>
-
-<p>另外，明显能看出NGO也处在各个方面的压力当中。一方面，它们努力尝试在各种行动中使用更新的科技，更新老旧系统，这很耗钱、人、时间；另一方面，它们也承受着来自donors和technology companies的压力和游说，陷入“过度科技化”的陷阱。We must realize that we do not need fancy technologies all the time, especially in the fields where the out-dated pen-and-paper method works well. 很多公司尝试将NGO当成“潜在顾客”，不断给donors脑子里种下“technology is the silver bullet”的想法，营造虚妄不实的产品效果，企图引导（或者迫使）NGO购买它们的“高科技解决方案”。正如<a href="https://doi.org/10.5167/uzh-182171">“A Success Story that Can Be Sold”?: A Case Study of Humanitarian Use of Drones.</a>这篇文章中谈到的：</p>
-<blockquote>
- <i>Discussion revolves around the ideology of “technological utopia”, and the normative role of technology in the aid sector – to make substantive impacts, or to produce “success stories”. </i>
-</blockquote>
-<p>这不是此类问题第一次被提及，恐怕，也不会是最后一次。I know this sounds depressing, but we must face this messy reality.</p>
-
-<p>赶上疫情再加上安全权限之类的考虑，没有很多机会跟真正在实地工作的人道主义援助工作人员聊天 (which is such a pity :/)。但是也确实见到了在NGO内部敢于直面、愿意讨论、也在努力解决这些问题的人。I am deeply touched when I see lovely people dancing in shackles. As the old quote I mentioned before, “this world sucks, but it is not a reason for making it worse”.</p>
-
-<p><strong>It is not all that bad, it is not.</strong></p>]]></content><author><name></name></author><category term="storytelling" /><category term="security" /><category term="privacy" /><summary type="html"><![CDATA[给国际红十字会做系统安全，我看到的、想到的、感受到的。]]></summary></entry></feed>
+<p><em>Special thanks to: C for the encouragement and for saving me twice during my emotional breakdown, D for the relentless support through my application, E&amp;F for discussions and supports, G&amp;H for helping me revising the writing things, I&amp;J for the sincere advice, bro K for the calls, 老汪老何 for all the love along the way, as always.</em></p>]]></content><author><name></name></author><category term="storytelling" /><category term="phd" /><summary type="html"><![CDATA[也只能说是人生如戏…]]></summary></entry></feed>
